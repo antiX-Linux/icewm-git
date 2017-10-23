@@ -1,0 +1,28 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=XSession
+Name=IceWM
+GenericName=Window Manager
+GenericName[da]=Vindueshåndtering
+GenericName[fr]=Gestionnaire de Fenêtres
+GenericName[pt]=Gestor de Janelas
+Comment=Simple and fast window manger
+Comment[da]=Simpel og hurtig vindueshåndtering
+Icon=icewm
+TryExec=/usr/bin/icewm
+Exec=icewm
+NoDisplay=false
+Hidden=false
+Categories=WindowManager;Application;System;
+StartupNotify=false
+X-GNOME-Autostart-Notify=false
+X-GNOME-Autostart-Phase=WindowManager
+X-GNOME-Provides=windowmanager
+X-GNOME-WMName=icewm
+DesktopNames=ICEWM
+X-LightDM-DesktopName=icewm
+
+[Window Manager]
+Name=icewm
+SessionManaged=false
+StartupNotification=false

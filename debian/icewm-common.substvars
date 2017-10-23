@@ -1,0 +1,3 @@
+shlibs:Depends=libc6 (>= 2.14), libgcc1 (>= 1:4.2), libglib2.0-0 (>= 2.35.8)
+misc:Depends=
+misc:Pre-Depends=

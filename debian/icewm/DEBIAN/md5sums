@@ -1,0 +1,11 @@
+a60716299fc99afab3707294d7539875  usr/bin/icehelp
+3173ff78dd54952a9005455726a8e507  usr/bin/icesh
+62384bc05792dc6727811875eb46b00f  usr/bin/icesound
+e72bd797ecb48af567918fd2d7a562e0  usr/bin/icewm
+6ff36c6779983b29c3bb8f20e51b5226  usr/bin/icewm-session
+ab3ba8d89d9d035bd44b283581f85851  usr/bin/icewmbg
+8d23a689793fd6d5e21838de596480fc  usr/bin/icewmhint
+1dd30147d3e17f44d977c6fe19d2a8a6  usr/bin/icewmtray
+4bd9586eab54a9328e2553fbb3179cc9  usr/share/lintian/overrides/icewm
+e4b0c356fc64d84e6a6a949975a1a72e  usr/share/menu/icewm
+77805ef37dc5037b2b06565d8863639b  usr/share/xsessions/icewm-session.desktop

@@ -1,0 +1,1863 @@
+# Dutch messages for IceWM
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Ton Kersten <TonK@Wanadoo.nl>, 2003-2005
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: icewm 1.2.23\n"
+"Report-Msgid-Bugs-To: https://github.com/bbidulock/icewm/issues\n"
+"POT-Creation-Date: 2017-03-12 12:57-0600\n"
+"PO-Revision-Date: 2017-03-12 22:21+0000\n"
+"Last-Translator: Freek de Kruijf <freek@opensuse.org>\n"
+"Language-Team: Dutch "
+"<https://l10n.opensuse.org/projects/icewm/icewm-1-3-branch/nl/>\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 2.6\n"
+
+#: src/aapm.cc:191 src/aapm.cc:513 src/aapm.cc:753 src/aapm.cc:874
+msgid " - Power"
+msgstr " - Voeding"
+
+#: src/aapm.cc:193 src/aapm.cc:516 src/aapm.cc:756
+msgid "P"
+msgstr "E"
+
+#: src/aapm.cc:197 src/aapm.cc:487 src/aapm.cc:733 src/aapm.cc:845
+#, c-format
+msgid " - Charging"
+msgstr " - Opladen"
+
+#. TRANSLATORS: Please translate the string "C" into "Celsius Temperature" in your language.
+#. TRANSLATORS: Please make sure the translated string could be shown in your non-utf8 locale.
+#: src/aapm.cc:199 src/aapm.cc:489 src/aapm.cc:735 src/acpustatus.cc:410
+msgid "C"
+msgstr "C"
+
+#: src/aapm.cc:491
+msgid " - Full"
+msgstr " - Volledig"
+
+#: src/acpustatus.cc:209
+#, c-format
+msgid ""
+"stat:\tuser = %llu, nice = %llu, sys = %llu, idle = %llu, iowait = %llu, "
+"intr = %llu, softirq = %llu, steal = %llu\n"
+msgstr ""
+"stat:\tuser = %llu, nice = %llu, sys = %llu, idle = %llu, iowait = %llu, "
+"intr = %llu, softirq = %llu, steal = %llu\n"
+
+#: src/acpustatus.cc:214
+#, c-format
+msgid ""
+"bars:\tuser = %llu, nice = %llu, sys = %llu, iowait = %llu, intr = %llu, "
+"softirq = %llu, steal = %llu (h = %i)\n"
+msgstr ""
+"bars:\tuser = %llu, nice = %llu, sys = %llu, iowait = %llu, intr = %llu, "
+"softirq = %llu, steal = %llu (h = %i)\n"
+
+#: src/acpustatus.cc:276
+#, c-format
+msgid "CPU %s Load: %3.2f %3.2f %3.2f, %u"
+msgstr "CPU-belasting %s: %3.2f %3.2f %3.2f, %u"
+
+#: src/acpustatus.cc:281
+#, c-format
+msgid ""
+"\n"
+"Ram (free): %5.2f (%.2f) M"
+msgstr ""
+"\n"
+"RAM (vrij): %5.2f (%.2f) M"
+
+#: src/acpustatus.cc:286
+#, c-format
+msgid ""
+"\n"
+"Swap (free): %.2f (%.2f) M"
+msgstr ""
+"\n"
+"Swap (vrij): %.2f (%.2f) M"
+
+#: src/acpustatus.cc:292
+#, c-format
+msgid ""
+"\n"
+"ACPI Temp: "
+msgstr ""
+"\n"
+"ACPI-temp: "
+
+#: src/acpustatus.cc:311
+#, c-format
+msgid ""
+"\n"
+"CPU Freq: %.3fGHz"
+msgstr ""
+"\n"
+"CPU-freq: %.3fGHz"
+
+#: src/acpustatus.cc:332
+msgid "CPU"
+msgstr "CPU"
+
+#: src/acpustatus.cc:332
+msgid "Load: "
+msgstr "Belasting: "
+
+#: src/acpustatus.cc:695
+#, c-format
+msgid "%s: %llu %llu %llu %llu %llu %llu %llu %llu"
+msgstr "%s: %llu %llu %llu %llu %llu %llu %llu %llu"
+
+#: src/amailbox.cc:77
+#, c-format
+msgid "Invalid mailbox protocol: \"%s\""
+msgstr "Onbekend E-mail protocol: »%s«"
+
+#: src/amailbox.cc:79
+#, c-format
+msgid "Invalid mailbox path: \"%s\""
+msgstr "Ongeldig mailbox pad: »%s«"
+
+#: src/amailbox.cc:343
+#, c-format
+msgid "Using MailBox \"%s\"\n"
+msgstr "Gebruikt postbus: »%s«\n"
+
+#: src/amailbox.cc:451
+msgid "Error checking mailbox."
+msgstr "Probleem bij het controleren van de postbus."
+
+#: src/amailbox.cc:457
+#, c-format
+msgid "%ld mail message."
+msgstr "%ld bericht."
+
+#: src/amailbox.cc:458
+#, c-format
+msgid "%ld mail messages."
+msgstr "%ld berichten."
+
+#: src/apppstatus.cc:204
+#, c-format
+msgid ""
+"Interface %s:\n"
+"  Current rate (in/out):\t%li %s/%li %s\n"
+"  Current average (in/out):\t%lli %s/%lli %s\n"
+"  Transferred (in/out):\t%lli %s/%lli %s\n"
+"  Online time:\t%ld:%02ld:%02ld%s%s"
+msgstr ""
+"Interface %s:\n"
+"  Huidige   (in/uit):\t%li %s/%li %s\n"
+"  Gemiddeld (in/uit):\t%lli %s/%lli %s\n"
+"  Totaal    (in/uit):\t%lli %s/%lli %s\n"
+"  Online-tijd:\t%ld:%02ld:%02ld%s%s"
+
+#: src/apppstatus.cc:216
+msgid ""
+"\n"
+"  Caller id:\t"
+msgstr ""
+"\n"
+"  Beller id:\t"
+
+#: src/aworkspaces.cc:155 src/aworkspaces.cc:220 src/aworkspaces.cc:276
+#: src/wmstatus.cc:178
+msgid "Workspace: "
+msgstr "Werkplaats: "
+
+#: src/fdomenu.cc:74
+msgid "Accessibility"
+msgstr "Toegankelijkheid"
+
+#: src/fdomenu.cc:75
+msgid "Settings"
+msgstr "Instellingen"
+
+#: src/fdomenu.cc:76
+msgid "Screensavers"
+msgstr "Schermbeveiligers"
+
+#: src/fdomenu.cc:77
+msgid "Accessories"
+msgstr "Accessoires"
+
+#: src/fdomenu.cc:78
+msgid "Development"
+msgstr "Ontwikkeling"
+
+#: src/fdomenu.cc:79
+msgid "Education"
+msgstr "Onderwijs"
+
+#: src/fdomenu.cc:80
+msgid "Games"
+msgstr "Spellen"
+
+#: src/fdomenu.cc:81
+msgid "Graphics"
+msgstr "Grafische elementen"
+
+#: src/fdomenu.cc:82
+msgid "Multimedia"
+msgstr "Multimedia"
+
+#: src/fdomenu.cc:83
+msgid "Network"
+msgstr "Netwerk"
+
+#: src/fdomenu.cc:84
+msgid "Office"
+msgstr "Kantoor"
+
+#: src/fdomenu.cc:85
+msgid "System"
+msgstr "Systeem"
+
+#: src/fdomenu.cc:86
+msgid "WINE"
+msgstr "WINE"
+
+#: src/fdomenu.cc:87
+msgid "Editors"
+msgstr "Verwerkers"
+
+#: src/fdomenu.cc:88
+msgid "Other"
+msgstr "Overige"
+
+#: src/icehelp.cc:715
+msgid "Back"
+msgstr "Terug"
+
+#: src/icehelp.cc:715
+msgid "Alt+Left"
+msgstr "Alt+Links"
+
+#: src/icehelp.cc:716
+msgid "Forward"
+msgstr "Verder"
+
+#: src/icehelp.cc:716
+msgid "Alt+Right"
+msgstr "Alt+Rechts"
+
+#: src/icehelp.cc:718
+msgid "Previous"
+msgstr "Terug"
+
+#: src/icehelp.cc:719
+msgid "Next"
+msgstr "Volgende"
+
+#: src/icehelp.cc:721
+msgid "Contents"
+msgstr "Inhoudsopgave"
+
+#: src/icehelp.cc:722
+msgid "Index"
+msgstr "Index"
+
+#: src/icehelp.cc:724 src/icesame.cc:63 src/iceview.cc:76 src/wmframe.cc:187
+msgid "Close"
+msgstr "Sluiten"
+
+#: src/icehelp.cc:724 src/icesame.cc:63 src/iceview.cc:76
+msgid "Ctrl+Q"
+msgstr "Ctrl+Q"
+
+#: src/icehelp.cc:1327
+#, c-format
+msgid ""
+"Usage: %s FILENAME\n"
+"\n"
+"A very simple HTML browser displaying the document specified by FILENAME.\n"
+"\n"
+msgstr ""
+"Syntax: %s BESTANDSNAAM\n"
+"\n"
+"Een eenvoudige HTML-Browser om BESTANDSNAAM te bekijken.\n"
+"\n"
+
+#: src/icehelp.cc:1337
+#, c-format
+msgid "Invalid path: %s\n"
+msgstr "Ongeldig pad: %s\n"
+
+#: src/icehelp.cc:1342
+msgid "Invalid path: "
+msgstr "Ongeldig pad: "
+
+#: src/icelist.cc:84
+msgid "List View"
+msgstr "Lijst"
+
+#: src/icelist.cc:85
+msgid "Icon View"
+msgstr "Pictogrammen"
+
+#: src/icelist.cc:89
+msgid "Open"
+msgstr "Openen"
+
+#: src/icesame.cc:58
+msgid "Undo"
+msgstr "Ongedaan maken"
+
+#: src/icesame.cc:58
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+#: src/icesame.cc:60
+msgid "New"
+msgstr "Nieuw"
+
+#: src/icesame.cc:60
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+#: src/icesame.cc:61
+msgid "Restart"
+msgstr "Herstart"
+
+#: src/icesame.cc:61
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+#: src/icesame.cc:66
+msgid "Same Game"
+msgstr "Hetzelfde spel"
+
+#: src/icesh.cc:187
+#, c-format
+msgid "Action `%s' requires at least %d arguments."
+msgstr "Actie `%s' heeft minimaal %d argumenten nodig."
+
+#: src/icesh.cc:194
+#, c-format
+msgid "Invalid expression: `%s'"
+msgstr "Ongeldige expressie: »%s«"
+
+#: src/icesh.cc:316
+#, c-format
+msgid "Named symbols of the domain `%s' (numeric range: %ld-%ld):\n"
+msgstr "Genoemde symbolen van het domein »%s« (Bereik: %ld-%ld):\n"
+
+#: src/icesh.cc:429
+#, c-format
+msgid "Invalid workspace name: `%s'"
+msgstr "Ongeldig werkplaatsnummer: »%s«"
+
+#: src/icesh.cc:435
+#, c-format
+msgid "Workspace out of range: %d"
+msgstr "Werkplaats buiten het bereik: %d"
+
+#: src/icesh.cc:569
+#, c-format
+msgid ""
+"Usage: %s [OPTIONS] ACTIONS\n"
+"\n"
+"Options:\n"
+"  -display DISPLAY            Connects to the X server specified by "
+"DISPLAY.\n"
+"                              Default: $DISPLAY or :0.0 when not set.\n"
+"  -window WINDOW_ID           Specifies the window to manipulate. Special\n"
+"                              identifiers are `root' for the root window "
+"and\n"
+"                              `focus' for the currently focused window.\n"
+"  -class WM_CLASS             Window management class of the window(s) to\n"
+"                              manipulate. If WM_CLASS contains a period, "
+"only\n"
+"                              windows with exactly the same WM_CLASS "
+"property\n"
+"                              are matched. If there is no period, windows "
+"of\n"
+"                              the same class and windows of the same "
+"instance\n"
+"                              (aka. `-name') are selected.\n"
+"\n"
+"Actions:\n"
+"  setIconTitle   TITLE        Set the icon title.\n"
+"  setWindowTitle TITLE        Set the window title.\n"
+"  setGeometry    geometry     Set the window geometry\n"
+"  setState       MASK STATE   Set the GNOME window state to STATE.\n"
+"                              Only the bits selected by MASK are affected.\n"
+"                              STATE and MASK are expressions of the domain\n"
+"                              `GNOME window state'.\n"
+"  toggleState    STATE        Toggle the GNOME window state bits specified "
+"by\n"
+"                              the STATE expression.\n"
+"  setHints       HINTS        Set the GNOME window hints to HINTS.\n"
+"  setLayer       LAYER        Moves the window to another GNOME window "
+"layer.\n"
+"  setWorkspace   WORKSPACE    Moves the window to another workspace. Select\n"
+"                              the root window to change the current "
+"workspace.\n"
+"  listWorkspaces              Lists the names of all workspaces.\n"
+"  setTrayOption  TRAYOPTION   Set the IceWM tray option hint.\n"
+"\n"
+"Expressions:\n"
+"  Expressions are list of symbols of one domain concatenated by `+' or `|':\n"
+"\n"
+"  EXPRESSION ::= SYMBOL | EXPRESSION ( `+' | `|' ) SYMBOL\n"
+"\n"
+msgstr ""
+"Syntaxis: %s [OPTIES] ACTIES\n"
+"\n"
+"Opties:\n"
+"  -display DISPLAY            Met de door DISPLAY gedefinieerde X-Server\n"
+"                              verbinden.\n"
+"                              Standaard: $DISPLAY of :0.0 als DISPLAY niet "
+"gezet is.\n"
+"  -window VENSTER_ID          Het te manipuleren venster. Bijzondere\n"
+"                              ID's zijn »root« voor het hoofdvenster en "
+"»focus«\n"
+"                              voor het venster dat nu de focus heeft.\n"
+"  -class WM_CLASS             Klasse van vensterbeheer van het/de venster(s) "
+"om↵\n"
+"                              te manipuleren. Als WM_CLASS een punt bevat, "
+"dan alleen↵\n"
+"                              vensters met exact dezelfde eigenschap "
+"WM_CLASS↵\n"
+"                              worden meegenomen. Als er geen punt is worden "
+"vensters↵\n"
+"                              met dezelfde klasse en vensters van hetzelfde "
+"exemplaar↵\n"
+"                              (met `-name') geselecteerd.↵\n"
+"\n"
+"Acties:\n"
+"  setIconTitle TITEL          Zet de titel van het pictogram.\n"
+"  setWindowTitle TITEL        Zet de titel van het venster.\n"
+"  setGeometry    geometrie     Zet de geometrie van het venster\n"
+"  setState MASKER TOESTAND    Zet de Gnome vensterinstelling naar TOESTAND\n"
+"                              Alleen de door MASKER gekozen bits worden\n"
+"                              veranderd. TOESTAND en MASKER zijn "
+"uitdrukkingen\n"
+"\t                       uit het »GNOME-Venstertoestand« domein.\n"
+"  toggleState TOESTAND        Zet de Gnome venster instelling naar TOESTAND\n"
+"  setHints OMSCHRIJVING       Zet de Gnome venster omschrijving.\n"
+"  setLayer DESK               Plaatst het venster op een andere desktop.\n"
+"  setWorkspace WERKPLAATS     Plaatst het venster op een andere werkplaats.\n"
+"                              Bij de keuze voor een andere werkplaats wordt "
+"de\n"
+"                              huidige werkplaats gewisseld.\n"
+"  listWorkspaces              Toont een lijst van alle werkplaatsen.\n"
+"  setTrayOption TRAYOPTIE     Stelt de IceWM-trayoptie in.\n"
+"\n"
+"Expressies:\n"
+"  Expressies zijn reeksen symbolen uit hetzelfde domein, die door het  "
+"plusteken »+« of een verticale streep »|« verbonden zijn:\n"
+"\n"
+"  EXPRESSIE ::= SYMBOOL | EXPRESSIE ( `+' | `|' ) SYMBOOL\n"
+"\n"
+
+#: src/icesh.cc:608
+msgid "GNOME window state"
+msgstr "GNOME-Venster status"
+
+#: src/icesh.cc:609
+msgid "GNOME window hint"
+msgstr "GNOME-Venster omschrijving"
+
+#: src/icesh.cc:610
+msgid "GNOME window layer"
+msgstr "GNOME venster laag"
+
+#: src/icesh.cc:611
+msgid "IceWM tray option"
+msgstr "IceWM tray optie"
+
+#: src/icesh.cc:616
+msgid "Usage error: "
+msgstr "Syntaxisfout: "
+
+#: src/icesh.cc:687
+#, c-format
+msgid "Invalid argument: `%s'."
+msgstr "Ongeldig argument: »%s«."
+
+#: src/icesh.cc:696
+msgid "No actions specified."
+msgstr "Geen aktie aangegeven."
+
+#: src/icesh.cc:703 src/icesound.cc:1050 src/icewmhint.cc:76 src/yxapp.cc:975
+#, c-format
+msgid "Can't open display: %s. X must be running and $DISPLAY set."
+msgstr ""
+"Kan het display %s niet gebruiken. De X-Server moet werken en \n"
+"de omgevingsvariabele $DISPLAY moet hiernaar verwijzen."
+
+#: src/icesh.cc:743
+#, c-format
+msgid "Invalid window identifier: `%s'"
+msgstr "Ongeldige venster identificatie: »%s«"
+
+#: src/icesh.cc:896
+#, c-format
+msgid "workspace #%d: `%s'\n"
+msgstr "Werkplaats #%d: »%s«\n"
+
+#: src/icesh.cc:914
+#, c-format
+msgid "Unknown action: `%s'"
+msgstr "Onbekende actie: »%s«"
+
+#: src/iceskt.cc:36
+#, c-format
+msgid "Socket error: %d"
+msgstr "Sokjes fout ;-): %d"
+
+#: src/icesound.cc:256 src/icesound.cc:424 src/icesound.cc:792
+#, c-format
+msgid "Playing sample #%d (%s)"
+msgstr "Speel sample #%d (%s)"
+
+#: src/icesound.cc:468
+#, c-format
+msgid "No such device: %s"
+msgstr "Onbekend apparaat: %s"
+
+#: src/icesound.cc:561
+#, c-format
+msgid "Can't connect to ESound daemon: %s"
+msgstr "Kan geen verbinding met de ESound-Daemon maken: %s"
+
+#: src/icesound.cc:562 src/icesound.cc:739 src/icesound.cc:780
+#: src/icewmhint.cc:78 src/yxapp.cc:976
+msgid "<none>"
+msgstr "<geen>"
+
+#: src/icesound.cc:582
+#, c-format
+msgid "Error <%d> while uploading `%s:%s'"
+msgstr "Fout <%d> bij het uploaden van »%s:%s«"
+
+#: src/icesound.cc:588
+#, c-format
+msgid "Sample <%d> uploaded as `%s:%s'"
+msgstr "Sample <%d> werd als »%s:%s« geladen"
+
+#: src/icesound.cc:647
+#, c-format
+msgid "Playing sample #%d"
+msgstr "Speel sample #%d"
+
+#: src/icesound.cc:738 src/icesound.cc:779
+#, c-format
+msgid "Can't connect to YIFF server: %s"
+msgstr "Kan geen verbinding met YIFF-server maken: %s"
+
+#: src/icesound.cc:744
+#, c-format
+msgid "Can't change to audio mode `%s'."
+msgstr "Kan niet naar audiomode »%s« wisselen."
+
+#: src/icesound.cc:886
+#, c-format
+msgid ""
+"Audio mode switch detected, initial audio mode `%s' no longer in effect."
+msgstr ""
+"Wisseling van audiomodus gedetecteerd, de oorspronkelijke audiomodus »%s« "
+"wordt niet verder gebruikt."
+
+#: src/icesound.cc:893
+msgid "Audio mode switch detected, automatic audio mode changing disabled."
+msgstr "Audiomode wissel gedetecteerd. Automatische wissel uitgeschakeld."
+
+#: src/icesound.cc:939 src/icesound.cc:952
+#, c-format
+msgid "Overriding previous audio mode `%s'."
+msgstr "Vorige audiomode overruled »%s«."
+
+#: src/icesound.cc:978
+#, c-format
+msgid ""
+"Usage: %s [OPTION]...\n"
+"\n"
+"Plays audio files on GUI events raised by IceWM.\n"
+"\n"
+"Options:\n"
+"\n"
+"-d, --display=DISPLAY         Display used by IceWM (default: $DISPLAY).\n"
+"-s, --sample-dir=DIR          Specifies the directory which contains\n"
+"                              the sound files (ie ~/.icewm/sounds).\n"
+"-i, --interface=TARGET        Specifies the sound output target\n"
+"                              interface, one of OSS, YIFF, ESD, ALSA\n"
+"-D, --device=DEVICE           (ALSA & OSS only) specifies the device to use\n"
+"                              (OSS default: /dev/dsp; ALSA: default).\n"
+"-S, --server=ADDR:PORT        (ESD and YIFF) specifies server address and\n"
+"                              port number (default localhost:16001 for ESD\n"
+"                              and localhost:9433 for YIFF).\n"
+"-m, --audio-mode[=MODE]       (YIFF only) specifies the Audio mode (leave\n"
+"                              blank to get a list).\n"
+"--audio-mode-auto             (YIFF only) change Audio mode on the fly to\n"
+"                              best match sample's Audio (can cause\n"
+"                              problems with other Y clients, overrides\n"
+"                              --audio-mode).\n"
+"\n"
+"-v, --verbose                 Be verbose (prints out each sound event to\n"
+"                              stdout).\n"
+"-V, --version                 Prints version information and exits.\n"
+"-h, --help                    Prints (this) help screen and exits.\n"
+"\n"
+"Return values:\n"
+"\n"
+"0     Success.\n"
+"1     General error.\n"
+"2     Command line error.\n"
+"3     Subsystems error (ie cannot connect to server).\n"
+"\n"
+msgstr ""
+"Gebruik: %s [OPTIE]...\n"
+"\n"
+"Speelt bij IceWM voorkomende GUI-acties passende geluidsbestanden af.\n"
+"\n"
+"Opties:\n"
+"\n"
+"-d, --display=DISPLAY         Het door IceWM gebruikte display\n"
+"                              (Standaard: $DISPLAY).\n"
+"-s, --sample-dir=MAP          Specificeert de map die de geluidsbestanden\n"
+"                              bevat (bijv. ~/.icewm/sounds).\n"
+"-i, --interface=DOEL          Het gebruikte audiointerface,\n"
+"                              één van OSS, YIFF, ESD of ALSA\n"
+"-D, --device=APPARAAT         (alleen ALSA & OSS) specificeert het te "
+"gebruiken\n"
+"                              apparaat (OSS standaard: /dev/dsp; ALSA: "
+"standaard).\n"
+"-S, --server=ADRES:POORT      (ESD en YIFF) Specificeert serveradres en -"
+"poortnummer\n"
+"                              (Standaard: localhost:16001 voor ESD\n"
+"                              en localhost:9433 voor YIFF).\n"
+"-m, --audio-mode[=MODUS]      (alleen YIFF) speciceert audiomodus (leeg "
+"laten,\n"
+"                              om een overzicht te krijgen).\n"
+"--audio-mode-auto             (alleen YIFF) wisselen van de audiomodus naar\n"
+"                              behoefte om een beste overeenkomst te krijgen "
+"met\n"
+"                              de audio in het sample. (kan problemen met "
+"andere\n"
+"                              Y-clients veroorzaken, overschrijft --audio-"
+"mode).\n"
+"\n"
+"-v, --verbose                 Wees praatgraag (toont elke geluidsgebeurtenis "
+"op\n"
+"                              stdout).\n"
+"-V, --version                 Toont de programmaversie.\n"
+"-h, --help                    Toont deze hulp.\n"
+"\n"
+"Resultaat:\n"
+"\n"
+"  0     Succes.\n"
+"  1     Algemene fout.\n"
+"  2     Commandoregelfout.\n"
+"  3     Fout in een subsysteem (dwz. geen verbinding met de server)\n"
+" \n"
+
+#: src/icesound.cc:1175
+msgid "Multiple sound interfaces given."
+msgstr "Er werden meerdere audiointerfaces aangegeven."
+
+#: src/icesound.cc:1187 src/icesound.cc:1199 src/icesound.cc:1212
+#, c-format
+msgid "Support for the %s interface not compiled."
+msgstr "De ondersteuning voor de %s-interface werd niet meegecompileerd."
+
+#: src/icesound.cc:1216
+#, c-format
+msgid "Unsupported interface: %s."
+msgstr "Niet ondersteunde audiointerface: %s."
+
+#: src/icesound.cc:1233
+#, c-format
+msgid "Received signal %d: Terminating..."
+msgstr "Signaal %d ontvangen: Het programma wordt gestopt..."
+
+#: src/icesound.cc:1242
+#, c-format
+msgid "Received signal %d: Reloading samples..."
+msgstr "Signaal %d ontvangen: Samples worden geactualiseerd..."
+
+#: src/iceview.cc:72
+msgid "Hex View"
+msgstr "Hexadecimal"
+
+#: src/iceview.cc:72
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+#: src/iceview.cc:73
+msgid "Expand Tabs"
+msgstr "Tabstops uitbreiden"
+
+#: src/iceview.cc:73
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+#: src/iceview.cc:74
+msgid "Wrap Lines"
+msgstr "Lange regels afbreken"
+
+#: src/iceview.cc:74
+msgid "Ctrl+W"
+msgstr "Ctrl+W"
+
+#: src/icewmbg.cc:410
+msgid ""
+"Usage: icewmbg [ -r | -q ]\n"
+" -r  Restart icewmbg\n"
+" -q  Quit icewmbg\n"
+"Loads desktop background according to preferences file\n"
+" DesktopBackgroundCenter  - Display desktop background centered\n"
+" DesktopBackgroundScaled  - Display desktop background scaled\n"
+" SupportSemitransparency  - Support for semitransparent terminals\n"
+" DesktopBackgroundColor   - Desktop background color\n"
+" DesktopBackgroundImage   - Desktop background image\n"
+" DesktopTransparencyColor - Color to announce for semi-transparent windows\n"
+" DesktopTransparencyImage - Image to announce for semi-transparent windows\n"
+"\n"
+" center:0 scaled:0 = tiled\n"
+" center:1 scaled:1 = keep aspect ratio\n"
+msgstr ""
+"Gebruik: icewmbg [ -r | -q ]\n"
+" -r  Herstart icewmbg\n"
+" -q  Stop icewmbg\n"
+"Laad bureaublad achtergrond zoals gedefinieerd in voorkeurbestand\n"
+" DesktopBackgroundCenter  - Toon achtergrond gecentreerd\n"
+" DesktopBackgroundScaled  - Toon achtergrond geschaald\n"
+" SupportSemitransparency  - Ondersteun semi-transparante achtergrond\n"
+" DesktopBackgroundColor   - Bureaublad achtergrond kleur\n"
+" DesktopBackgroundImage   - Bureaublad achtergrond afbeelding\n"
+" DesktopTransparencyColor - Kleur voor semi-transparente achtergrond\n"
+" DesktopTransparencyImage - Afbeelding voor semi-transparente achtergrond\n"
+"\n"
+" center:0 scaled:0 = als tegels\n"
+" center:1 scaled:1 = beeldverhouding behouden\n"
+
+#: src/icewmbg.cc:428
+#, c-format
+msgid ""
+"%s: unrecognized option `%s'\n"
+"Try `%s --help' for more information.\n"
+msgstr ""
+"%s: Onbekende optie: »%s«\n"
+"Probeer »%s --help« voor meer informatie.\n"
+
+#: src/icewmbg.cc:557
+#, c-format
+msgid "Loading image %s failed"
+msgstr "Fout bij het laden van plaatje %s"
+
+#: src/icewmbg.cc:571 src/ycursor.cc:102 src/yimage.cc:81 src/ypixbuf.cc:879
+#, c-format
+msgid "Loading of pixmap \"%s\" failed: %s"
+msgstr "Fout bij het laden van plaatje »%s«: %s"
+
+#: src/icewmhint.cc:49
+msgid "Usage: icewmhint [class.instance] option arg\n"
+msgstr "Syntax: icewmhint [klasse.instantie] optie argument\n"
+
+#: src/icewmhint.cc:65
+#, c-format
+msgid "Out of memory (len=%d)."
+msgstr "Onvoldoende geheugen (len=%d)."
+
+#: src/misc.cc:330
+msgid "Warning: "
+msgstr "Waarschuwing: "
+
+#: src/movesize.cc:903
+#, c-format
+msgid "Unknown direction in move/resize request: %d"
+msgstr "Onbekende richting in verplaats/schaal verzoek: %d"
+
+#: src/themes.cc:100
+msgid "Default"
+msgstr "Standaard"
+
+#: src/wmabout.cc:29 src/wmabout.cc:31
+msgid "(C)"
+msgstr "©"
+
+#: src/wmabout.cc:37
+msgid "Theme:"
+msgstr "Thema:"
+
+#: src/wmabout.cc:38
+msgid "Theme Description:"
+msgstr "Thema omschrijving:"
+
+#: src/wmabout.cc:39
+msgid "Theme Author:"
+msgstr "Thema auteur:"
+
+#: src/wmabout.cc:43
+msgid "CodeSet:"
+msgstr "CodeSet:"
+
+#: src/wmabout.cc:44
+msgid "Language:"
+msgstr "Taal:"
+
+#: src/wmabout.cc:69
+msgid "icewm - About"
+msgstr "IceWM - Over"
+
+#: src/wmapp.cc:444
+msgid "Unable to get current font path."
+msgstr "Kan het lettertype pad niet bepalen."
+
+#: src/wmapp.cc:471
+msgid "Unexpected format of ICEWM_FONT_PATH property"
+msgstr "Onverwacht formaat van de eigenschap ICEWM_FONT_PATH"
+
+#: src/wmapp.cc:528
+#, c-format
+msgid "Multiple references for gradient \"%s\""
+msgstr "Meerdere verwijzingen naar de gradiënt \"%s\""
+
+#: src/wmapp.cc:603
+#, c-format
+msgid "Unknown gradient name: %s"
+msgstr "Onbekende gradient naam: »%s«"
+
+# OS/2 is dead, but... ;-)
+#: src/wmapp.cc:866
+msgid "_Logout"
+msgstr "_Afmelden"
+
+#: src/wmapp.cc:867
+msgid "_Cancel logout"
+msgstr "_Afmelden afbreken"
+
+#: src/wmapp.cc:880 src/wmapp.cc:882
+msgid "Lock _Workstation"
+msgstr "Werkstation _blokkeren"
+
+#: src/wmapp.cc:886 src/wmapp.cc:888 src/wmdialog.cc:111
+msgid "Re_boot"
+msgstr "_Re_boot"
+
+#: src/wmapp.cc:892 src/wmapp.cc:894 src/wmdialog.cc:118
+msgid "Shut_down"
+msgstr "Sto_ppen"
+
+#: src/wmapp.cc:900 src/wmapp.cc:902
+msgid "Restart _Icewm"
+msgstr "_Icewm Opnieuw starten"
+
+#: src/wmapp.cc:906
+msgid "Restart _Xterm"
+msgstr "_Xterm opnieuw starten"
+
+#: src/wmapp.cc:928
+msgid "_Menu"
+msgstr "_Menu"
+
+#: src/wmapp.cc:929
+msgid "_Above Dock"
+msgstr "_Over de Dock"
+
+#: src/wmapp.cc:930
+msgid "_Dock"
+msgstr "_Dock"
+
+#: src/wmapp.cc:931
+msgid "_OnTop"
+msgstr "_BovenIn"
+
+#: src/wmapp.cc:932
+msgid "_Normal"
+msgstr "_Normaal"
+
+#: src/wmapp.cc:933
+msgid "_Below"
+msgstr "_Onder"
+
+#: src/wmapp.cc:934
+msgid "D_esktop"
+msgstr "Bur_eaublad"
+
+#: src/wmapp.cc:946
+msgid "_Restore"
+msgstr "_Herstellen"
+
+#: src/wmapp.cc:948
+msgid "_Move"
+msgstr "_Verplaatsen"
+
+#: src/wmapp.cc:950
+msgid "_Size"
+msgstr "_Grootte veranderen"
+
+#: src/wmapp.cc:952
+msgid "Mi_nimize"
+msgstr "Mi_nimaliseren"
+
+#: src/wmapp.cc:954
+msgid "Ma_ximize"
+msgstr "Ma_ximaliseren"
+
+#: src/wmapp.cc:956
+msgid "_Fullscreen"
+msgstr "_Volledig scherm"
+
+#: src/wmapp.cc:960 src/wmwinlist.cc:307
+msgid "_Hide"
+msgstr "Verb_ergen"
+
+#: src/wmapp.cc:963
+msgid "Roll_up"
+msgstr "Op_rollen"
+
+#: src/wmapp.cc:970
+msgid "R_aise"
+msgstr "St_ijgen"
+
+#: src/wmapp.cc:972
+msgid "_Lower"
+msgstr "Da_len"
+
+#: src/wmapp.cc:974
+msgid "La_yer"
+msgstr "_Laag"
+
+#: src/wmapp.cc:978 src/wmwinlist.cc:310
+msgid "Move _To"
+msgstr "Verschuiven naa_r"
+
+#: src/wmapp.cc:979
+msgid "Occupy _All"
+msgstr "Op _alle werkplaatsen"
+
+#: src/wmapp.cc:985
+msgid "Limit _Workarea"
+msgstr "_Beperkte werkplaats"
+
+#: src/wmapp.cc:990
+msgid "Tray _icon"
+msgstr "Tray_icon"
+
+#: src/wmapp.cc:996 src/wmwinlist.cc:295 src/wmwinlist.cc:321
+msgid "_Close"
+msgstr "_Sluiten"
+
+#: src/wmapp.cc:998 src/wmwinlist.cc:297
+msgid "_Kill Client"
+msgstr "Programma stoppen"
+
+#: src/wmapp.cc:1002 src/wmdialog.cc:132 src/wmwinmenu.cc:137
+msgid "_Window list"
+msgstr "_Window lijst"
+
+#
+#: src/wmapp.cc:1018
+msgid "Another window manager already running, exiting..."
+msgstr "Een andere window manager is al aktief. Icewm wordt gestopt...."
+
+#: src/wmapp.cc:1084
+#, c-format
+msgid ""
+"Could not restart: %s\n"
+"Does $PATH lead to %s?"
+msgstr ""
+"De herstart is mislukt: %s\n"
+"Verwijst de »PATH« variable naar de programma directory »%s«?"
+
+#: src/wmapp.cc:1646
+msgid ""
+"  --client-id=ID      Client id to use when contacting session manager.\n"
+msgstr ""
+"  --client-id=ID      Te gebruiken client-id bij contact maken met de "
+"sessiemanager.\n"
+
+#: src/wmapp.cc:1652
+msgid ""
+"\n"
+"  --debug             Print generic debug messages.\n"
+"  --debug-z           Print debug messages regarding window stacking.\n"
+msgstr ""
+"\n"
+"  --debug             Algemene debugberichten afdrukken.\n"
+"  --debug-z           Debugberichten over stapelen van vensters afdrukken.\n"
+
+#: src/wmapp.cc:1658
+#, c-format
+msgid ""
+"Usage: %s [OPTIONS]\n"
+"Starts the IceWM window manager.\n"
+"\n"
+"Options:\n"
+"  --display=NAME      NAME of the X server to use.\n"
+"%s  --sync              Synchronize X11 commands.\n"
+"\n"
+"  -c, --config=FILE   Load preferences from FILE.\n"
+"  -t, --theme=FILE    Load theme from FILE.\n"
+"  -n, --no-configure  Ignore preferences file.\n"
+"\n"
+"  -v, --version       Prints version information and exits.\n"
+"  -h, --help          Prints this usage screen and exits.\n"
+"%s  --replace           Replace an existing window manager.\n"
+"  --restart           Don't use this: It's an internal flag.\n"
+"\n"
+"Environment variables:\n"
+"  ICEWM_PRIVCFG=PATH  Directory to use for user private configuration "
+"files,\n"
+"                      \"$HOME/.icewm/\" by default.\n"
+"  DISPLAY=NAME        Name of the X server to use, depends on Xlib by "
+"default.\n"
+"  MAIL=URL            Location of your mailbox. If the schema is omitted\n"
+"                      the local \"file\" schema is assumed.\n"
+"\n"
+"Visit http://www.icewm.org/ for report bugs, support requests, comments...\n"
+msgstr ""
+"Gebruik: %s [OPTIES]\n"
+"Start de IceWM windowmanager.\n"
+"\n"
+"Opties:\n"
+"  --display=NAAM         NAAM van de te gebruiken X server.\n"
+"%s  --sync                Synchroniseer X11 commando's.\n"
+"\n"
+"  -c, --config=BESTAND   Laad voorkeuren uit BESTAND.\n"
+"  -t, --theme=BESTAND    Laad thema uit BESTAND.\n"
+"  -n, --no-configure     Negeer voorkeurenbestand.\n"
+"\n"
+"  -v, --version          Toon versie informatie en stop.\n"
+"  -h, --help             Toon deze hulp en stop.\n"
+"%s  --replace              vervang een bestaande windowmanager.\n"
+"  --restart            Niet gebruiken. Uitsluitend voor intern gebruik.\n"
+"\n"
+"Omgevingsvariabelen:\n"
+"  ICEWM_PRIVCFG=PAD   Map voor persoonlijke configuratiebestanden,\n"
+"                      standaard \"$HOME/.icewm/\".\n"
+"  DISPLAY=NAME        NAAM van de te gebruiker X server, hangt standaard af "
+"van Xlib.\n"
+"  MAIL=URL            Locatie van uw postbus. Als het schema niet is "
+"opgegeven\n"
+"                      wordt aangenomen dat het lokale schema gebruikt moet "
+"worden.\n"
+"\n"
+"Bezoek http://www.icewm.org/ voor foutmeldingen, ondersteuningsverzoeken, "
+"commentaar...\n"
+
+#: src/wmapp.cc:1769
+msgid "Confirm Logout"
+msgstr "Afmelden bevestigen"
+
+#: src/wmapp.cc:1770
+msgid ""
+"Logout will close all active applications.\n"
+"Proceed?"
+msgstr ""
+"Bij het afmelden worden alle actieve programma's afgesloten.\n"
+"Afmelden?"
+
+#
+#: src/wmconfig.cc:116
+msgid "Bad Look name"
+msgstr "Ongeldige 'Kijk-naam' (look-Option)"
+
+#: src/wmdialog.cc:83
+msgid "Loc_k Workstation"
+msgstr "Werkstation blo_kkeren"
+
+#: src/wmdialog.cc:90 src/wmprog.cc:989 src/wmprog.cc:991 src/wmprog.cc:995
+#: src/wmprog.cc:997 src/wmtaskbar.cc:438 src/wmtaskbar.cc:440
+msgid "_Logout..."
+msgstr "_Afmelden..."
+
+#: src/wmdialog.cc:97 src/ymsgbox.cc:46
+msgid "_Cancel"
+msgstr "Af_breken"
+
+#: src/wmdialog.cc:104
+msgid "_Restart icewm"
+msgstr "IceWM _herstarten"
+
+#: src/wmdialog.cc:125 src/wmprog.cc:906 src/wmprog.cc:908 src/wmtaskbar.cc:430
+#: src/wmtaskbar.cc:433
+msgid "_About"
+msgstr "_Over"
+
+#: src/wmframe.cc:165 src/wmframe.cc:3437
+msgid "Maximize"
+msgstr "Maximaliseren"
+
+#: src/wmframe.cc:178
+msgid "Minimize"
+msgstr "Minimaliseren"
+
+#: src/wmframe.cc:199
+msgid "Hide"
+msgstr "Verbergen"
+
+#: src/wmframe.cc:209 src/wmframe.cc:3470
+msgid "Rollup"
+msgstr "Oprollen"
+
+#
+#: src/wmframe.cc:218
+msgid "Raise/Lower"
+msgstr "Stijgen/Dalen"
+
+#
+#: src/wmframe.cc:1727
+msgid "Kill Client: "
+msgstr "Stoppen van: "
+
+#: src/wmframe.cc:1731
+msgid ""
+"WARNING! All unsaved changes will be lost when\n"
+"this client is killed. Do you wish to proceed?"
+msgstr ""
+"PAS OP! Alle niet opgeslagen veranderingen gaan verloren\n"
+"als u dit programma stopt!\n"
+"Wilt u doorgaan?"
+
+#: src/wmframe.cc:3434
+msgid "Restore"
+msgstr "Herstellen"
+
+#: src/wmframe.cc:3468
+msgid "Rolldown"
+msgstr "Afrollen"
+
+#: src/wmoption.cc:240
+#, c-format
+msgid "Error in window option: %s"
+msgstr "Foutieve window optie: %s"
+
+#: src/wmoption.cc:257
+#, c-format
+msgid "Unknown window option: %s"
+msgstr "Onbekende window optie: %s"
+
+#: src/wmoption.cc:340
+msgid "Syntax error in window options"
+msgstr "Syntaxfout in window optie"
+
+#: src/wmoption.cc:387
+msgid "Out of memory for window options"
+msgstr "Onvoldoende geheugen voor de window opties"
+
+#: src/wmprog.cc:198
+msgid "Missing command argument"
+msgstr "Onvoldoende argumenten"
+
+#: src/wmprog.cc:216
+#, c-format
+msgid "Bad argument %d"
+msgstr "Ongeldig argument: %d"
+
+#: src/wmprog.cc:302 src/wmprog.cc:406 src/wmprog.cc:448
+#, c-format
+msgid "Error at prog %s"
+msgstr "Fout bij programma %s"
+
+#: src/wmprog.cc:357
+#, c-format
+msgid "Unexepected keyword: %s"
+msgstr "Onverwacht woord: %s"
+
+#: src/wmprog.cc:496
+#, c-format
+msgid "Error at key %s"
+msgstr "Fout bij toets %s"
+
+#: src/wmprog.cc:858 src/wmprog.cc:860
+msgid "Programs"
+msgstr "Programma's"
+
+#: src/wmprog.cc:867 src/wmprog.cc:869
+msgid "_Run..."
+msgstr "Uit_voeren..."
+
+#: src/wmprog.cc:878 src/wmprog.cc:880 src/wmtaskbar.cc:418
+msgid "_Windows"
+msgstr "_Windows"
+
+#: src/wmprog.cc:922
+msgid "_Help"
+msgstr "_Help"
+
+#: src/wmprog.cc:945
+msgid "_Click to focus"
+msgstr "_Klik voor focus"
+
+#: src/wmprog.cc:950
+msgid "_Sloppy mouse focus"
+msgstr "_Slordige muisfocus"
+
+#: src/wmprog.cc:955
+msgid "Custo_m"
+msgstr "Aa_ngepast"
+
+#: src/wmprog.cc:962 src/wmprog.cc:964
+msgid "_Focus"
+msgstr "_Focus"
+
+#: src/wmprog.cc:973 src/wmprog.cc:975
+msgid "_Themes"
+msgstr "_Thema's"
+
+#: src/wmprog.cc:979 src/wmprog.cc:981
+msgid "Se_ttings"
+msgstr "Ins_tellingen"
+
+#: src/wmsession.cc:239 src/wmsession.cc:255 src/wmsession.cc:265
+#, c-format
+msgid "Session Manager: Unknown line %s"
+msgstr "Sessie manager: Onbekende regel %s"
+
+#: src/wmtaskbar.cc:258 src/wmtaskbar.cc:259
+msgid "Task Bar"
+msgstr "Taak lijst"
+
+#: src/wmtaskbar.cc:407 src/wmwinlist.cc:312 src/wmwinlist.cc:325
+msgid "Tile _Vertically"
+msgstr "_Vertikaal uitlijnen"
+
+#: src/wmtaskbar.cc:408 src/wmwinlist.cc:313 src/wmwinlist.cc:326
+msgid "T_ile Horizontally"
+msgstr "_Horizontaal uitlijnen"
+
+#: src/wmtaskbar.cc:409 src/wmwinlist.cc:314 src/wmwinlist.cc:327
+msgid "Ca_scade"
+msgstr "_Overlappend uitlijnen"
+
+#: src/wmtaskbar.cc:410 src/wmwinlist.cc:315 src/wmwinlist.cc:328
+msgid "_Arrange"
+msgstr "_Optimaliseren"
+
+#: src/wmtaskbar.cc:411 src/wmwinlist.cc:317 src/wmwinlist.cc:329
+msgid "_Minimize All"
+msgstr "Alles _minimaliseren"
+
+#: src/wmtaskbar.cc:412 src/wmwinlist.cc:318 src/wmwinlist.cc:330
+msgid "_Hide All"
+msgstr "Alles _verstoppen"
+
+#: src/wmtaskbar.cc:413 src/wmwinlist.cc:319 src/wmwinlist.cc:331
+msgid "_Undo"
+msgstr "_Ongedaan"
+
+#: src/wmtaskbar.cc:415
+msgid "Arrange _Icons"
+msgstr "_Pictogrammen opruimen"
+
+#: src/wmtaskbar.cc:421
+msgid "_Refresh"
+msgstr "_Verversen"
+
+#: src/wmtaskbar.cc:428
+msgid "_License"
+msgstr "_Licentie"
+
+#: src/wmtaskbar.cc:564
+msgid "Favorite applications"
+msgstr "Favoriete programma's"
+
+#: src/wmtaskbar.cc:581
+msgid "Window list menu"
+msgstr "Window lijst menu"
+
+#: src/wmtaskbar.cc:590
+msgid "Show Desktop"
+msgstr "Bureaublad tonen"
+
+#: src/wmwinlist.cc:61
+msgid "All Workspaces"
+msgstr "Alle werkplaatsen"
+
+#: src/wmwinlist.cc:295
+msgid "Del"
+msgstr "Verwijderen"
+
+#: src/wmwinlist.cc:299
+msgid "_Terminate Process"
+msgstr "Programma stoppen"
+
+#: src/wmwinlist.cc:300
+msgid "Kill _Process"
+msgstr "Programma stoppen"
+
+#: src/wmwinlist.cc:305
+msgid "_Show"
+msgstr "_Tonen"
+
+#: src/wmwinlist.cc:309
+msgid "_Minimize"
+msgstr "Mi_nimaliseren"
+
+#: src/wmwinlist.cc:342 src/wmwinlist.cc:343
+msgid "Window list"
+msgstr "Window lijst"
+
+#: src/wmwinmenu.cc:127
+#, c-format
+msgid "%lu. Workspace %-.32s"
+msgstr "%lu. Werkplaats %-.32s"
+
+#: src/yapp.cc:483
+#, c-format
+msgid "Message Loop: select failed (errno=%d)"
+msgstr "Boodschaplus: select mislukt (errno=%d)"
+
+#: src/ycmdline.cc:43
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "Onbekende optie: %s\n"
+
+#: src/ycmdline.cc:48
+#, c-format
+msgid "Unrecognized argument: %s\n"
+msgstr "Onbekend argument: %s\n"
+
+#: src/ycmdline.cc:64
+#, c-format
+msgid "Argument required for %s switch"
+msgstr "De %s-optie heeft een argument nodig"
+
+#: src/yconfig.cc:186
+#, c-format
+msgid "Unknown key name %s in %s"
+msgstr "Onbekende toets %s in %s"
+
+#: src/yconfig.cc:211 src/yconfig.cc:224
+#, c-format
+msgid "Bad argument: %s for %s"
+msgstr "Ongeldig argument: %s voor %s"
+
+#: src/yconfig.cc:259
+#, c-format
+msgid "Bad option: %s"
+msgstr "Ongeldige optie: %s"
+
+#: src/ycursor.cc:127
+#, c-format
+msgid "Loading of pixmap \"%s\" failed"
+msgstr "Laden van afbeelding »%s« mislukt"
+
+#: src/ycursor.cc:160
+#, c-format
+msgid "Invalid cursor pixmap: \"%s\" contains too much unique colors"
+msgstr "Ongeldige cursorpixmap: »%s« bevat te veel unieke kleuren"
+
+#: src/ycursor.cc:182
+#, c-format
+msgid "BUG? Imlib was able to read \"%s\""
+msgstr "FOUT? Imlib was in staat »%s« te lezen"
+
+#: src/ycursor.cc:208
+#, c-format
+msgid "BUG? Malformed XPM header but Imlib was able to parse \"%s\""
+msgstr "BUG? Ongeldige XPM-Header (Imlib heeft het bestand »%s« toch gelezen)"
+
+#: src/ycursor.cc:216
+#, c-format
+msgid "BUG? Unexpected end of XPM file but Imlib was able to parse \"%s\""
+msgstr ""
+"BUG? Onverwacht einde van het XPM-bestand (Imlib heeft het bestand »%s« toch "
+"gelezen)"
+
+#: src/ycursor.cc:219
+#, c-format
+msgid "BUG? Unexpected character but Imlib was able to parse \"%s\""
+msgstr "BUG? Onverwacht teken maar Imlib heeft \"%s\" toch kunnen ontleden"
+
+#: src/yfontcore.cc:71 src/yfontxft.cc:174
+#, c-format
+msgid "Could not load font \"%s\"."
+msgstr "Het lettertype »%s« kon niet geladen worden."
+
+#: src/yfontcore.cc:74 src/yfontcore.cc:121 src/yfontxft.cc:197
+#, c-format
+msgid "Loading of fallback font \"%s\" failed."
+msgstr "Terugval op lettertype »%s« is mislukt."
+
+#: src/yfontcore.cc:114
+#, c-format
+msgid "Could not load fontset \"%s\"."
+msgstr "Lettertypeset »%s« kon niet geladen worden."
+
+#: src/yfontcore.cc:126
+#, c-format
+msgid "Missing codesets for fontset \"%s\":"
+msgstr "Missende codeset in de lettertpeset »%s«:"
+
+#: src/yicon.cc:167
+#, c-format
+msgid "Out of memory for pixmap \"%s\""
+msgstr "Onvoldoende geheugen voor afbeelding »%s«"
+
+#: src/yimage.cc:61 src/yimage.cc:109 src/ypixbuf.cc:1063
+#, c-format
+msgid "Loading of image \"%s\" failed"
+msgstr "Laden van de afbeelding »%s« mislukt"
+
+#: src/yimage.cc:141 src/yimage.cc:159
+msgid "Imlib: Acquisition of X pixmap failed"
+msgstr "Imlib: Overname van de X Pixmap is mislukt"
+
+#: src/yimage.cc:150
+msgid "Imlib: Imlib image to X pixmap mapping failed"
+msgstr "Imlib: Afbeelding van het Imlib-beeld op een X-Pixmap is mislukt"
+
+#: src/yinput.cc:55
+msgid "Cu_t"
+msgstr "Kn_ippen"
+
+#: src/yinput.cc:55
+msgid "Ctrl+X"
+msgstr "Ctrl+X"
+
+#: src/yinput.cc:56
+msgid "_Copy"
+msgstr "_Kopieren"
+
+#: src/yinput.cc:56
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+#: src/yinput.cc:57
+msgid "_Paste"
+msgstr "_Plakken"
+
+#: src/yinput.cc:57
+msgid "Ctrl+V"
+msgstr "Ctrl+V"
+
+#: src/yinput.cc:58
+msgid "Paste _Selection"
+msgstr "Selectie _plakken"
+
+#: src/yinput.cc:60
+msgid "Select _All"
+msgstr "_Alles selecteren"
+
+#: src/yinput.cc:60
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+#: src/ylocale.cc:46
+msgid "Locale not supported by C library. Falling back to 'C' locale'."
+msgstr "Lokaliteit wordt niet ondersteund. 'C' lokaliteit wordt gebruikt."
+
+#: src/ylocale.cc:68
+msgid ""
+"Failed to determinate the current locale's codeset. Assuming ISO-8859-1.\n"
+msgstr "Kom huidige lokaliteit niet bepalen. Ga uit van ISO-8859-1.\n"
+
+#: src/ylocale.cc:100 src/ylocale.cc:107
+#, c-format
+msgid "iconv doesn't supply (sufficient) %s to %s converters."
+msgstr "iconv heeft (onvoldoende) %s naar %s-vertalers."
+
+#: src/ylocale.cc:161
+#, c-format
+msgid "Invalid multibyte string \"%s\": %s"
+msgstr "Ongeldige Multibyte-string »%s«: %s"
+
+#: src/ymsgbox.cc:38
+msgid "_OK"
+msgstr "_OK"
+
+#: src/ypaths.cc:144 src/ypaths.cc:171
+#, c-format
+msgid "Image not readable: %s"
+msgstr "Afbeelding niet leesbaar: %s"
+
+#: src/ypaths.cc:149
+#, c-format
+msgid "Out of memory for image %s"
+msgstr "Onvoldoende geheugen voor afbeelding %s"
+
+#: src/ypaths.cc:156
+#, c-format
+msgid "Could not find image %s"
+msgstr "Afbeelding %s niet gevonden"
+
+#: src/ypaths.cc:175
+#, c-format
+msgid "Out of memory for image: %s"
+msgstr "Onvoldoende geheugen voor afbeelding: %s"
+
+#: src/ypaths.cc:182
+#, c-format
+msgid "Could not find image: %s"
+msgstr "Afbeelding niet gevonden: %s"
+
+#: src/ypixbuf.cc:482 src/ypixbuf.cc:668
+#, c-format
+msgid ""
+"Using fallback mechanism to convert pixels (depth: %d; masks (red/green/"
+"blue): %0*x/%0*x/%0*x)"
+msgstr ""
+"Gebruik terugval mechanisme om pixels te converteren.(Kleurdiepte: %d, "
+"Masker (Rood/Groen/Blauw): %0*x/%0*x/%0*x)"
+
+#: src/ypixbuf.cc:576 src/ypixbuf.cc:725
+#, c-format
+msgid "%s:%d: %d bit visuals are not supported (yet)"
+msgstr "%s:%d: %d-Bit-Visuals worden (momenteel) niet ondersteunt"
+
+#: src/ysmapp.cc:106
+msgid "$USER or $LOGNAME not set?"
+msgstr "Zijn de variabelen $USER of $LOGNAME gezet?"
+
+#: src/yurl.cc:82
+#, c-format
+msgid "\"%s\" doesn't describe a common internet scheme"
+msgstr "»%s« voldoet niet aan de Common Internet Scheme Syntax"
+
+#: src/yurl.cc:85
+#, c-format
+msgid "\"%s\" contains no scheme description"
+msgstr "»%s« bevat geen schema beschrijving"
+
+#~ msgid "Cancel"
+#~ msgstr "Niet afmelden"
+
+#, fuzzy
+#~ msgid ""
+#~ "Interface %s:\n"
+#~ "  Current rate (in/out):\t%li %s/%li %s\n"
+#~ "  Current average (in/out):\t%lli %s/%lli %s\n"
+#~ "  Total average (in/out):\t%li %s/%li %s\n"
+#~ "  Transferred (in/out):\t%lli %s/%lli %s\n"
+#~ "  Online time:\t%ld:%02ld:%02ld%s%s"
+#~ msgstr ""
+#~ "Interface %s:\n"
+#~ "  Huidige   (in/uit):\t%d %s/%d %s\n"
+#~ "  Gemiddeld (in/uit):\t%d %s/%d %s\n"
+#~ "  Totaal    (in/uit):\t%d %s/%d %s\n"
+#~ "  Online-tijd:\t%d:%02d:%02d%s%s"
+
+#, fuzzy
+#~ msgid ""
+#~ "             Usage: %s [OPTION]...\n"
+#~ "             \n"
+#~ "             Plays audio files on GUI events raised by IceWM.\n"
+#~ "             \n"
+#~ "             Options:\n"
+#~ "             \n"
+#~ "             -d, --display=DISPLAY         Display used by IceWM "
+#~ "(default: $DISPLAY).\n"
+#~ "             -s, --sample-dir=DIR          Specifies the directory which "
+#~ "contains\n"
+#~ "             the sound files (ie ~/.icewm/sounds).\n"
+#~ "             -i, --interface=TARGET        Specifies the sound output "
+#~ "target\n"
+#~ "             interface, one of OSS, YIFF, ESD\n"
+#~ "             -D, --device=DEVICE           (OSS only) specifies the "
+#~ "digital signal\n"
+#~ "             processor (default /dev/dsp).\n"
+#~ "             -S, --server=ADDR:PORT     (ESD and YIFF) specifies server "
+#~ "address and\n"
+#~ "             port number (default localhost:16001 for ESD\n"
+#~ "             and localhost:9433 for YIFF).\n"
+#~ "             -m, --audio-mode[=MODE]       (YIFF only) specifies the "
+#~ "Audio mode (leave\n"
+#~ "             blank to get a list).\n"
+#~ "             --audio-mode-auto          (YIFF only) change Audio mode on "
+#~ "the fly to\n"
+#~ "             best match sample's Audio (can cause\n"
+#~ "             problems with other Y clients, overrides\n"
+#~ "             --audio-mode).\n"
+#~ "             \n"
+#~ "             -v, --verbose                 Be verbose (prints out each "
+#~ "sound event to\n"
+#~ "             stdout).\n"
+#~ "             -V, --version                 Prints version information and "
+#~ "exits.\n"
+#~ "             -h, --help                    Prints (this) help screen and "
+#~ "exits.\n"
+#~ "             \n"
+#~ "             Return values:\n"
+#~ "             \n"
+#~ "             0     Success.\n"
+#~ "             1     General error.\n"
+#~ "             2     Command line error.\n"
+#~ "             3     Subsystems error (ie cannot connect to server).\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Syntax: %s [OPTION]...\n"
+#~ "\n"
+#~ "Speelt de bij IceWM voorkomende GUI-acties passende geluidsbestanden.\n"
+#~ "\n"
+#~ "Opties:\n"
+#~ "\n"
+#~ "  -d, --display=DISPLAY         Het door IceWM gebruikte display\n"
+#~ "                                (Standaard: $DISPLAY).\n"
+#~ "  -s, --sample-dir=BESTAND      Een audio bestand   -i, --"
+#~ "interface=DOEL          Het gebruikte audiointerface,\n"
+#~ "                                zoals OSS, YIFF of ESD\n"
+#~ "  -D, --device=GERÄT            Alleen OSS: De digitale signalprocessor\n"
+#~ "                                (Standaard: /dev/dsp).\n"
+#~ "  -S, --server=ADRESE:POORT     ESD en YIFF: Serveradres en -poortnummer\n"
+#~ "                                (Standard: localhost:16001 für ESD\n"
+#~ "                                und localhost:9433 für YIFF).\n"
+#~ "  -m, --audio-mode[=MODE]       Alleen YIFF: Audiomode (leeg laten, om "
+#~ "een\n"
+#~ "                                overzicht te krijgen).\n"
+#~ "  --audio-mode-auto             Alleen YIFF: Wisselen van de audiomode "
+#~ "naar behoefte\n"
+#~ "                                (Kan problemen met andere Y-clients\n"
+#~ "                                veroorzaken, overschrijft --audio-mode).\n"
+#~ "  -v, --verbose                 Wees praatgraag. (Toont alle GUI-"
+#~ "interacties op\n"
+#~ "                                stdout).\n"
+#~ "  -V, --version                 Toont de programma versie.\n"
+#~ "  -h, --help                    Toont deze hulp.\n"
+#~ "\n"
+#~ "Resultaat:\n"
+#~ "\n"
+#~ "  0     Succes.\n"
+#~ "  1     Algemene fout.\n"
+#~ "  2     Commando regel fout.\n"
+#~ "  3     Fout in een subsysteem (In het algemeen geen verbinding met de "
+#~ "server)\n"
+#~ " \n"
+
+#~ msgid ""
+#~ "Usage: icewmbg [ -r | -q ]\n"
+#~ " -r  Restart icewmbg\n"
+#~ " -q  Quit icewmbg\n"
+#~ "Loads desktop background according to preferences file\n"
+#~ " DesktopBackgroundCenter  - Display desktop background centered, not "
+#~ "tiled\n"
+#~ " SupportSemitransparency  - Support for semitransparent terminals\n"
+#~ " DesktopBackgroundColor   - Desktop background color\n"
+#~ " DesktopBackgroundImage   - Desktop background image\n"
+#~ " DesktopTransparencyColor - Color to announce for semi-transparent "
+#~ "windows\n"
+#~ " DesktopTransparencyImage - Image to announce for semi-transparent "
+#~ "windows\n"
+#~ msgstr ""
+#~ "Gebruik: icewmbg [ -r | -q ]\n"
+#~ " -r  Herstart icewmbg\n"
+#~ " -q  Stop icewmbg\n"
+#~ "Laad bureaublad achtergrond zoals gedefinieerd in voorkeur bestand\n"
+#~ " DesktopBackgroundCenter  - Toon achtergrond gecentreerd\n"
+#~ " SupportSemitransparency  - Ondersteun semi-transparante achtergrond\n"
+#~ " DesktopBackgroundColor   - Bureaublad achtergrond kleur\n"
+#~ " DesktopBackgroundImage   - Bureaublad achtergrond afbeelding\n"
+#~ " DesktopTransparencyColor - Kleur voor semi-transparente achtergrond\n"
+#~ " DesktopTransparencyImage - Afbeelding voor semi-transparente "
+#~ "achtergrond\n"
+
+#~ msgid "Could not find pixel map %s"
+#~ msgstr "Pixmap %s niet gevonden"
+
+#~ msgid "Out of memory for pixel map %s"
+#~ msgstr "Onvoldoende geheugen voor pixmap %s"
+
+#~ msgid "Out of memory for RGB pixel buffer %s"
+#~ msgstr "Onvoldoende geheugen voor RGB pixel buffer »%s«"
+
+#~ msgid "Could not find RGB pixel buffer %s"
+#~ msgstr "RGB pixel buffer »%s« niet gevonden"
+
+#~ msgid " processes."
+#~ msgstr " processen"
+
+#, fuzzy
+#~ msgid "program label expected"
+#~ msgstr "Scheidingsteken verwacht"
+
+#~ msgid "icon name expected"
+#~ msgstr "icoon naam verwacht"
+
+#~ msgid "window management class expected"
+#~ msgstr "venster beheer klasse verwacht"
+
+#, fuzzy
+#~ msgid "menu caption expected"
+#~ msgstr "Scheidingsteken verwacht"
+
+#, fuzzy
+#~ msgid "opening curly expected"
+#~ msgstr "Sleutelwoord verwacht"
+
+#, fuzzy
+#~ msgid "action name expected"
+#~ msgstr "Scheidingsteken verwacht"
+
+#, fuzzy
+#~ msgid "unknown action"
+#~ msgstr "Onbekende actie: »%s«"
+
+#~ msgid "Failed to open %s: %s"
+#~ msgstr "Kom %s niet openen: %s"
+
+#~ msgid "Failed to execute %s: %s"
+#~ msgstr "Kon %s niet uitvoeren: %s"
+
+#~ msgid "Failed to create child process: %s"
+#~ msgstr "Kon kind proces niet creeeren: %s"
+
+#~ msgid "Not a regular file: %s"
+#~ msgstr "Is geen standaard bestand: %s"
+
+#~ msgid "Pair of hexadecimal digits expected"
+#~ msgstr "Paar van hexadecimalen tekens verwacht"
+
+#~ msgid "Unexpected identifier"
+#~ msgstr "Onverwacht sleutelwoord"
+
+#~ msgid "Identifier expected"
+#~ msgstr "Sleutelwoord verwacht"
+
+#~ msgid "Separator expected"
+#~ msgstr "Scheidingsteken verwacht"
+
+#, fuzzy
+#~ msgid "Invalid token"
+#~ msgstr "Ongeldig pad: "
+
+#~ msgid "Not a hexadecimal number: %c%c (in \"%s\")"
+#~ msgstr "Geen hexadecimaal cijfer: %c%c (in »%s«)"
+
+#~ msgid "/proc/apm - unknown format (%d)"
+#~ msgstr "/proc/apm - Onbekend formaat (%d)"
+
+#~ msgid "stat:\tuser = %i, nice = %i, sys = %i, idle = %i"
+#~ msgstr "status:\tuser = %i, nice = %i, sys = %i, idle = %i "
+
+#~ msgid "bars:\tuser = %i, nice = %i, sys = %i (h = %i)\n"
+#~ msgstr "balken:\tuser = %i, nice = %i, sys = %i (h = %i)\n"
+
+#, fuzzy
+#~ msgid "cpu: %d %d %d %d %d %d %d"
+#~ msgstr "CPU: %d %d %d %d"
+
+#~ msgid "kstat finds too many cpus: should be %d"
+#~ msgstr "kstat meldt te veel CPUs: Het moeten er %d zijn"
+
+#~ msgid "%s@%d: %s\n"
+#~ msgstr "%s@%d: %s\n"
+
+#~ msgid "XQueryTree failed for window 0x%x"
+#~ msgstr "XQueryTree is mislukt voor venster 0x%x"
+
+#~ msgid "Compiled with DEBUG flag. Debugging messages will be printed."
+#~ msgstr "Met DEBUG-vlag gecompileert. Debugging boodschappen worden getoont."
+
+#~ msgid "_No icon"
+#~ msgstr "_Geen icon"
+
+#~ msgid "_Minimized"
+#~ msgstr "_Geminimaliseert"
+
+#~ msgid "_Exclusive"
+#~ msgstr "_Exclusief"
+
+#~ msgid "X error %s(0x%lX): %s"
+#~ msgstr "X-Protocol fout in %s(0x%lX): %s"
+
+#, fuzzy
+#~ msgid "Forking failed (errno=%d)"
+#~ msgstr "Pipe creatie fout (errno=%d)."
+
+#, fuzzy
+#~ msgid "Failed to create anonymous pipe (errno=%d)."
+#~ msgstr "Pipe creatie fout (errno=%d)."
+
+#, fuzzy
+#~ msgid "Invalid cursor pixmap: \"%s\" contains too many unique colors"
+#~ msgstr "Ongeldige cursorpixmap: »%s« bevat te veel unieke kleuren"
+
+#~ msgid "Failed to create anonymous pipe: %s"
+#~ msgstr "Kon anonieme 'pipe' niet openen: %s"
+
+#~ msgid "Failed to duplicate file descriptor: %s"
+#~ msgstr "Kan bestandshendel niet dupliceren: %s"
+
+#~ msgid "%s:%d: Failed to copy drawable 0x%x to pixel buffer"
+#~ msgstr "%s:%d: Kopieren van 0x%x tekenbuffer mislukt"
+
+#, fuzzy
+#~ msgid "%s:%d: Failed to copy drawable 0x%x to pixel buffer (%d:%d-%dx%d"
+#~ msgstr "%s:%d: Kopieren van 0x%x tekenbuffer mislukt"
+
+#~ msgid "TOO MANY ICE CONNECTIONS -- not supported"
+#~ msgstr "TE VEEL ICE VERBINDINGEN -- niet ondersteund"
+
+#~ msgid "Session Manager: IceAddConnectionWatch failed."
+#~ msgstr "Sessie manager: IceAddConnectionWatch mislukt."
+
+#~ msgid "Session Manager: Init error: %s"
+#~ msgstr "Sessie manager: Initialisatie fout: %s"
+
+#~ msgid "M"
+#~ msgstr "L"
+
+#~ msgid ""
+#~ "# preferences(%s) - generated by genpref\n"
+#~ "\n"
+#~ msgstr ""
+#~ "# Instellingen(%s) - Gegenereerd door genpref\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "# NOTE: All settings are commented out by default, be sure to\n"
+#~ "#       uncomment them if you change them!\n"
+#~ "\n"
+#~ msgstr ""
+#~ "# Opmerking: Alle instellingen zijn standaard uit-gecommentarieerd\n"
+#~ "#            Verwijder het commentaarteken (#) als u iets wilt "
+#~ "veranderden\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "Usage: icewmbg [OPTION]... pixmap1 [pixmap2]...\n"
+#~ "Changes desktop background on workspace switches.\n"
+#~ "The first pixmap is used as a default one.\n"
+#~ "\n"
+#~ "-s, --semitransparency    Enable support for semi-transparent terminals\n"
+#~ msgstr ""
+#~ "Syntax: icewmbg [OPTIE]... pixmap1 [pixmap2]...\n"
+#~ "Veranderd de werkplaats achtergrond bij werkplaats wissel.\n"
+#~ "Het eerste bestand dient als staandard-Pixmap.\n"
+#~ "\n"
+#~ "-s, --semitransparency    Activeert de ondersteuning voor "
+#~ "semitransparente terminals\n"
+
+#~ msgid ""
+#~ "Window %p has no XA_ICEWM_PID property. Export the LD_PRELOAD variable to "
+#~ "preload the preice library."
+#~ msgstr ""
+#~ "Het window %p heeft geen XA_ICEWM_PID eigenschap. Exporteer de variable "
+#~ "»LD_PRELOAD«, om de preice-programmabibliothek te activeren."
+
+#~ msgid "Obsolete option: %s"
+#~ msgstr "Verouderde Option: %s"
+
+#~ msgid "Gnome"
+#~ msgstr "Gnome"
+
+#~ msgid "Gnome User Apps"
+#~ msgstr "Gnome-Gebruikers menu"
+
+#~ msgid "KDE"
+#~ msgstr "KDE"
+
+#~ msgid "Resource allocation for rotated string \"%s\" (%dx%d px) failed"
+#~ msgstr ""
+#~ "Geen resources voor de roterende tekenreeks »%s« (%dx%d px) beschikbaar"
+
+#~ msgid "_Ignore"
+#~ msgstr "_Negeren"
+
+#~ msgid "Out of memory: Unable to allocated %d bytes."
+#~ msgstr "Gebrek aan geheugen: Onmogelijk om %d bytes te reserveren."
+
+#~ msgid "Invalid fonts in fontset definition \"%s\":"
+#~ msgstr "Ongeldig lettertype in de lettertype familie »%s«:"
+
+#~ msgid "CPU Load: %3.2f %3.2f %3.2f, %d processes."
+#~ msgstr "CPU Belasting: %3.2f %3.2f %3.2f, %d processen"

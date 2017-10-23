@@ -1,0 +1,1777 @@
+# French messages for IceWM
+# Copyright (C) 2000-2001 Marko Macek
+# Frederic Dubuy <fdubuy@email.com>, 2001.
+# Laurent Pouillet <laurent.pouillet@caramail.com>
+# LiNuCe <linuce@linuxmail.org>
+msgid ""
+msgstr ""
+"Project-Id-Version: icewm 1.2.15pre3\n"
+"Report-Msgid-Bugs-To: https://github.com/bbidulock/icewm/issues\n"
+"POT-Creation-Date: 2017-03-12 12:57-0600\n"
+"PO-Revision-Date: 2016-09-25 13:30+0000\n"
+"Last-Translator: Benoît Monin <benoit.monin@gmx.fr>\n"
+"Language-Team: French <https://l10n.opensuse.org/projects/icewm/icewm-1-3-"
+"branch/fr/>\n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 2.6\n"
+
+#: src/wmapp.cc:1652
+msgid ""
+"\n"
+"  --debug             Print generic debug messages.\n"
+"  --debug-z           Print debug messages regarding window stacking.\n"
+msgstr ""
+
+#: src/apppstatus.cc:216
+msgid ""
+"\n"
+"  Caller id:\t"
+msgstr ""
+"\n"
+"  Numéro de l'appelant :\t"
+
+#: src/acpustatus.cc:292
+#, fuzzy, c-format
+msgid ""
+"\n"
+"ACPI Temp: "
+msgstr ""
+"\n"
+"ACPI Temp : "
+
+#: src/acpustatus.cc:311
+#, fuzzy, c-format
+msgid ""
+"\n"
+"CPU Freq: %.3fGHz"
+msgstr ""
+"\n"
+"CPU Freq : %.3fGHz"
+
+#: src/acpustatus.cc:281
+#, fuzzy, c-format
+msgid ""
+"\n"
+"Ram (free): %5.2f (%.2f) M"
+msgstr ""
+"\n"
+"Mémoire (libre) : %5.2f (%.2f) M"
+
+#: src/acpustatus.cc:286
+#, fuzzy, c-format
+msgid ""
+"\n"
+"Swap (free): %.2f (%.2f) M"
+msgstr ""
+"\n"
+"Swap (libre) : %.2f (%.2f) M"
+
+#: src/wmapp.cc:1646
+msgid ""
+"  --client-id=ID      Client id to use when contacting session manager.\n"
+msgstr ""
+
+#: src/aapm.cc:197 src/aapm.cc:487 src/aapm.cc:733 src/aapm.cc:845
+#, c-format
+msgid " - Charging"
+msgstr " - En charge"
+
+#: src/aapm.cc:491
+#, fuzzy
+msgid " - Full"
+msgstr " - Chargée"
+
+#: src/aapm.cc:191 src/aapm.cc:513 src/aapm.cc:753 src/aapm.cc:874
+msgid " - Power"
+msgstr " - Courant"
+
+#: src/yurl.cc:85
+#, c-format
+msgid "\"%s\" contains no scheme description"
+msgstr "\"%s\" ne contient pas de description de protocole"
+
+#: src/yurl.cc:82
+#, c-format
+msgid "\"%s\" doesn't describe a common internet scheme"
+msgstr "\"%s\" n'est pas un format Internet standard"
+
+#: src/ysmapp.cc:106
+msgid "$USER or $LOGNAME not set?"
+msgstr "Variables d'environnement $USER/$LOGNAME non initialisées ?"
+
+#: src/amailbox.cc:457
+#, c-format
+msgid "%ld mail message."
+msgstr "%ld message."
+
+#: src/amailbox.cc:458
+#, c-format
+msgid "%ld mail messages."
+msgstr "%ld messages."
+
+#: src/wmwinmenu.cc:127
+#, c-format
+msgid "%lu. Workspace %-.32s"
+msgstr "%lu. Bureau %-.32s"
+
+#: src/acpustatus.cc:695
+#, c-format
+msgid "%s: %llu %llu %llu %llu %llu %llu %llu %llu"
+msgstr ""
+
+#: src/icewmbg.cc:428
+#, c-format
+msgid ""
+"%s: unrecognized option `%s'\n"
+"Try `%s --help' for more information.\n"
+msgstr ""
+"%s: option inconnue `%s'\n"
+"Essayez \"%s --help\" pour plus d'information.\n"
+
+#: src/ypixbuf.cc:576 src/ypixbuf.cc:725
+#, c-format
+msgid "%s:%d: %d bit visuals are not supported (yet)"
+msgstr "%s:%d: les visuels %d bits ne sont pas (encore) supportés"
+
+#: src/wmabout.cc:29 src/wmabout.cc:31
+msgid "(C)"
+msgstr "©"
+
+#: src/icesound.cc:562 src/icesound.cc:739 src/icesound.cc:780
+#: src/icewmhint.cc:78 src/yxapp.cc:976
+msgid "<none>"
+msgstr "<aucun>"
+
+#: src/fdomenu.cc:74
+msgid "Accessibility"
+msgstr ""
+
+#: src/fdomenu.cc:77
+#, fuzzy
+msgid "Accessories"
+msgstr "Accessoires"
+
+#: src/icesh.cc:187
+#, c-format
+msgid "Action `%s' requires at least %d arguments."
+msgstr "L'action \"%s\" nécessite au moins %d paramètre(s)."
+
+#: src/wmwinlist.cc:61
+msgid "All Workspaces"
+msgstr "Tous les bureaux"
+
+#: src/icehelp.cc:715
+msgid "Alt+Left"
+msgstr "Alt+Gauche"
+
+#: src/icehelp.cc:716
+msgid "Alt+Right"
+msgstr "Alt+Droite"
+
+#
+#: src/wmapp.cc:1018
+msgid "Another window manager already running, exiting..."
+msgstr "Un gestionnaire de fenêtre tourne déjà. Terminaison ..."
+
+#: src/ycmdline.cc:64
+#, c-format
+msgid "Argument required for %s switch"
+msgstr "Argument manquant pour l'option %s"
+
+#: src/wmtaskbar.cc:415
+msgid "Arrange _Icons"
+msgstr "Arranger les _icônes"
+
+#: src/icesound.cc:893
+msgid "Audio mode switch detected, automatic audio mode changing disabled."
+msgstr ""
+"Changement de mode audio détecté. Changement de mode audio automatique "
+"désactivé."
+
+#: src/icesound.cc:886
+#, c-format
+msgid ""
+"Audio mode switch detected, initial audio mode `%s' no longer in effect."
+msgstr ""
+"Changement de mode audio détecté. Le mode précédent \"%s\" n'est plus "
+"utilisé."
+
+#: src/ycursor.cc:182
+#, c-format
+msgid "BUG? Imlib was able to read \"%s\""
+msgstr "BOGUE ? Imlib a pu lire \"%s\""
+
+#: src/ycursor.cc:208
+#, c-format
+msgid "BUG? Malformed XPM header but Imlib was able to parse \"%s\""
+msgstr "BOGUE ? Entête XPM mal formé mais Imlib a pu lire \"%s\""
+
+#: src/ycursor.cc:219
+#, fuzzy, c-format
+msgid "BUG? Unexpected character but Imlib was able to parse \"%s\""
+msgstr "BOGUE ? Caractère inattendu mais Imlib a pu lire \"%s\""
+
+#: src/ycursor.cc:216
+#, c-format
+msgid "BUG? Unexpected end of XPM file but Imlib was able to parse \"%s\""
+msgstr "BOGUE ? Fin prématurée de fichier XPM mais Imlib a pu lire \"%s\""
+
+#: src/icehelp.cc:715
+msgid "Back"
+msgstr "Retour"
+
+#
+#: src/wmconfig.cc:116
+msgid "Bad Look name"
+msgstr "Nom de l'option Look incorrect"
+
+#: src/wmprog.cc:216
+#, c-format
+msgid "Bad argument %d"
+msgstr "Mauvais paramètre %d"
+
+#: src/yconfig.cc:211 src/yconfig.cc:224
+#, c-format
+msgid "Bad argument: %s for %s"
+msgstr "Paramètre inconnu : %s pour %s"
+
+#: src/yconfig.cc:259
+#, c-format
+msgid "Bad option: %s"
+msgstr "Option inconnue : %s"
+
+#. TRANSLATORS: Please translate the string "C" into "Celsius Temperature" in your language.
+#. TRANSLATORS: Please make sure the translated string could be shown in your non-utf8 locale.
+#: src/aapm.cc:199 src/aapm.cc:489 src/aapm.cc:735 src/acpustatus.cc:410
+msgid "C"
+msgstr ""
+
+#: src/acpustatus.cc:332
+msgid "CPU"
+msgstr ""
+
+#: src/acpustatus.cc:276
+#, fuzzy, c-format
+msgid "CPU %s Load: %3.2f %3.2f %3.2f, %u"
+msgstr "Charge CPU: %3.2f %3.2f %3.2f, %u processus"
+
+#: src/wmtaskbar.cc:409 src/wmwinlist.cc:314 src/wmwinlist.cc:327
+msgid "Ca_scade"
+msgstr "Ca_scade"
+
+#: src/icesound.cc:744
+#, c-format
+msgid "Can't change to audio mode `%s'."
+msgstr "Impossible de passer en mode audio \"%s\"."
+
+#: src/icesound.cc:561
+#, c-format
+msgid "Can't connect to ESound daemon: %s"
+msgstr "Échec de connexion au démon ESound : %s"
+
+#: src/icesound.cc:738 src/icesound.cc:779
+#, c-format
+msgid "Can't connect to YIFF server: %s"
+msgstr "Échec de connexion au server YIFF: %s"
+
+#: src/icesh.cc:703 src/icesound.cc:1050 src/icewmhint.cc:76 src/yxapp.cc:975
+#, c-format
+msgid "Can't open display: %s. X must be running and $DISPLAY set."
+msgstr ""
+"Impossible d'ouvrir le display %s. X doit être lancé et \n"
+"$DISPLAY doit être positionnée."
+
+#: src/icehelp.cc:724 src/icesame.cc:63 src/iceview.cc:76 src/wmframe.cc:187
+msgid "Close"
+msgstr "Fermer"
+
+#: src/wmabout.cc:43
+msgid "CodeSet:"
+msgstr ""
+
+#: src/wmapp.cc:1769
+msgid "Confirm Logout"
+msgstr "Confirmer la déconnexion"
+
+#: src/icehelp.cc:721
+msgid "Contents"
+msgstr "Sommaire"
+
+#: src/ypaths.cc:156
+#, fuzzy, c-format
+msgid "Could not find image %s"
+msgstr "Impossible de trouver l'image %s"
+
+#: src/ypaths.cc:182
+#, c-format
+msgid "Could not find image: %s"
+msgstr "Impossible de trouver l'image : %s"
+
+#: src/yfontcore.cc:71 src/yfontxft.cc:174
+#, c-format
+msgid "Could not load font \"%s\"."
+msgstr "Impossible de charger la police \"%s\"."
+
+#: src/yfontcore.cc:114
+#, c-format
+msgid "Could not load fontset \"%s\"."
+msgstr "Impossible de charger le jeu de police \"%s\"."
+
+#: src/wmapp.cc:1084
+#, c-format
+msgid ""
+"Could not restart: %s\n"
+"Does $PATH lead to %s?"
+msgstr ""
+"Impossible de relancer \"%s\"\n"
+"$PATH mène-t-il à \"%s\" ?"
+
+#: src/yinput.cc:60
+msgid "Ctrl+A"
+msgstr "Ctrl+A"
+
+#: src/yinput.cc:56
+msgid "Ctrl+C"
+msgstr "Ctrl+C"
+
+#: src/iceview.cc:72
+msgid "Ctrl+H"
+msgstr "Ctrl+H"
+
+#: src/icesame.cc:60
+msgid "Ctrl+N"
+msgstr "Ctrl+N"
+
+#: src/icehelp.cc:724 src/icesame.cc:63 src/iceview.cc:76
+msgid "Ctrl+Q"
+msgstr "Ctrl+Q"
+
+#: src/icesame.cc:61
+msgid "Ctrl+R"
+msgstr "Ctrl+R"
+
+#: src/iceview.cc:73
+msgid "Ctrl+T"
+msgstr "Ctrl+T"
+
+#: src/yinput.cc:57
+msgid "Ctrl+V"
+msgstr "Ctrl+V"
+
+#: src/iceview.cc:74
+msgid "Ctrl+W"
+msgstr "Ctrl+W"
+
+#: src/yinput.cc:55
+msgid "Ctrl+X"
+msgstr "Ctrl+X"
+
+#: src/icesame.cc:58
+msgid "Ctrl+Z"
+msgstr "Ctrl+Z"
+
+#: src/yinput.cc:55
+msgid "Cu_t"
+msgstr "Cou_per"
+
+#: src/wmprog.cc:955
+msgid "Custo_m"
+msgstr ""
+
+#: src/wmapp.cc:934
+msgid "D_esktop"
+msgstr "Bur_eau"
+
+#: src/themes.cc:100
+msgid "Default"
+msgstr "Thème par défaut"
+
+#: src/wmwinlist.cc:295
+#, fuzzy
+msgid "Del"
+msgstr "Supprimer"
+
+#: src/fdomenu.cc:78
+#, fuzzy
+msgid "Development"
+msgstr "Développement"
+
+#: src/fdomenu.cc:87
+#, fuzzy
+msgid "Editors"
+msgstr "Éditeurs"
+
+#: src/fdomenu.cc:79
+#, fuzzy
+msgid "Education"
+msgstr "Éducation"
+
+#: src/icesound.cc:582
+#, c-format
+msgid "Error <%d> while uploading `%s:%s'"
+msgstr "Erreur <%d> pendant le chargement de \"%s:%s\""
+
+#: src/wmprog.cc:496
+#, c-format
+msgid "Error at key %s"
+msgstr "Erreur à la directive key %s"
+
+#: src/wmprog.cc:302 src/wmprog.cc:406 src/wmprog.cc:448
+#, c-format
+msgid "Error at prog %s"
+msgstr "Erreur à la directive prog \"%s\""
+
+#: src/amailbox.cc:451
+msgid "Error checking mailbox."
+msgstr "Échec de vérification de la boîte à lettre."
+
+#: src/wmoption.cc:240
+#, c-format
+msgid "Error in window option: %s"
+msgstr "Erreur dans l'option de fenêtre : %s"
+
+#: src/iceview.cc:73
+msgid "Expand Tabs"
+msgstr "Développer les tabulations"
+
+#: src/ylocale.cc:68
+msgid ""
+"Failed to determinate the current locale's codeset. Assuming ISO-8859-1.\n"
+msgstr ""
+"Échec lors de la détection de l'encodage des caractères courants.\n"
+"Utilisation de l'encodage par défaut ISO-8859-1.\n"
+
+#: src/wmtaskbar.cc:564
+msgid "Favorite applications"
+msgstr "Applications favorites"
+
+#: src/icehelp.cc:716
+msgid "Forward"
+msgstr "En avant"
+
+#: src/icesh.cc:609
+msgid "GNOME window hint"
+msgstr "Recommandation de fenêtre GNOME"
+
+#: src/icesh.cc:610
+msgid "GNOME window layer"
+msgstr "Couche de fenêtre GNOME"
+
+#: src/icesh.cc:608
+msgid "GNOME window state"
+msgstr "État de fenêtre GNOME"
+
+#: src/fdomenu.cc:80
+#, fuzzy
+msgid "Games"
+msgstr "Jeux"
+
+#: src/fdomenu.cc:81
+#, fuzzy
+msgid "Graphics"
+msgstr "Graphiques"
+
+#: src/iceview.cc:72
+msgid "Hex View"
+msgstr "Vue hexadécimale"
+
+#: src/wmframe.cc:199
+msgid "Hide"
+msgstr "Cacher"
+
+#: src/icesh.cc:611
+msgid "IceWM tray option"
+msgstr "Option du \"tray\" IceWM"
+
+#: src/icelist.cc:85
+msgid "Icon View"
+msgstr "Icônes"
+
+#: src/ypaths.cc:144 src/ypaths.cc:171
+#, fuzzy, c-format
+msgid "Image not readable: %s"
+msgstr "Image non lisible : %s"
+
+#: src/yimage.cc:141 src/yimage.cc:159
+msgid "Imlib: Acquisition of X pixmap failed"
+msgstr "Imlib: échec d'acquisition du pixmap X"
+
+#: src/yimage.cc:150
+msgid "Imlib: Imlib image to X pixmap mapping failed"
+msgstr "Imlib: échec lors du mapping de l'image Imlib en pixmap X"
+
+#: src/icehelp.cc:722
+msgid "Index"
+msgstr "Index"
+
+#: src/apppstatus.cc:204
+#, fuzzy, c-format
+msgid ""
+"Interface %s:\n"
+"  Current rate (in/out):\t%li %s/%li %s\n"
+"  Current average (in/out):\t%lli %s/%lli %s\n"
+"  Transferred (in/out):\t%lli %s/%lli %s\n"
+"  Online time:\t%ld:%02ld:%02ld%s%s"
+msgstr ""
+"Interface réseau %s :\n"
+"  Taux de transfert instantané (E/S) :\t%li %s/%li %s\n"
+"  Taux de transfert moyen (E/S) :\t%lli %s/%lli %s\n"
+"  Données transférées (E/S) :\t%lli %s/%lli %s\n"
+"  Temps passé en ligne:\t%ld:%02ld:%02ld%s%s"
+
+#: src/icesh.cc:687
+#, c-format
+msgid "Invalid argument: `%s'."
+msgstr "Paramètre incorrect : \"%s\"."
+
+#: src/ycursor.cc:160
+#, c-format
+msgid "Invalid cursor pixmap: \"%s\" contains too much unique colors"
+msgstr "Pixmap de curseur incorrect : \"%s\" contient trop de couleurs uniques"
+
+#: src/icesh.cc:194
+#, c-format
+msgid "Invalid expression: `%s'"
+msgstr "Expression incorrecte : \"%s\""
+
+#: src/amailbox.cc:79
+#, c-format
+msgid "Invalid mailbox path: \"%s\""
+msgstr "Chemin de boîte à lettre incorrect : %s"
+
+#: src/amailbox.cc:77
+#, c-format
+msgid "Invalid mailbox protocol: \"%s\""
+msgstr "Protocole de boîte à lettre incorrect : \"%s\""
+
+#: src/ylocale.cc:161
+#, c-format
+msgid "Invalid multibyte string \"%s\": %s"
+msgstr "Chaîne de caractère multi-octects incorrecte \"%s\" : %s"
+
+#: src/icehelp.cc:1342
+msgid "Invalid path: "
+msgstr "Chemin incorrect : "
+
+#: src/icehelp.cc:1337
+#, c-format
+msgid "Invalid path: %s\n"
+msgstr "Chemin incorrect : %s\n"
+
+#: src/icesh.cc:743
+#, c-format
+msgid "Invalid window identifier: `%s'"
+msgstr "Identifiant de fenêtre incorrect : \"%s\""
+
+#: src/icesh.cc:429
+#, c-format
+msgid "Invalid workspace name: `%s'"
+msgstr "Nom de bureau incorrect : \"%s\""
+
+#
+#: src/wmframe.cc:1727
+msgid "Kill Client: "
+msgstr "Tuer le client : "
+
+#: src/wmwinlist.cc:300
+msgid "Kill _Process"
+msgstr "Tuer le _processus"
+
+#: src/wmapp.cc:974
+msgid "La_yer"
+msgstr "C_ouche"
+
+#: src/wmabout.cc:44
+#, fuzzy
+msgid "Language:"
+msgstr "Langue :"
+
+#: src/wmapp.cc:985
+msgid "Limit _Workarea"
+msgstr "_Limiter l'aire de travail"
+
+#: src/icelist.cc:84
+msgid "List View"
+msgstr "Liste"
+
+#: src/acpustatus.cc:332
+#, fuzzy
+msgid "Load: "
+msgstr "Charge processeur : "
+
+#: src/icewmbg.cc:557
+#, c-format
+msgid "Loading image %s failed"
+msgstr "Échec de chargement de l'image %s"
+
+#: src/yfontcore.cc:74 src/yfontcore.cc:121 src/yfontxft.cc:197
+#, c-format
+msgid "Loading of fallback font \"%s\" failed."
+msgstr "Échec de chargement de la police par défaut \"%s\"."
+
+#: src/yimage.cc:61 src/yimage.cc:109 src/ypixbuf.cc:1063
+#, c-format
+msgid "Loading of image \"%s\" failed"
+msgstr "Échec de chargement de l'image \"%s\""
+
+#: src/ycursor.cc:127
+#, c-format
+msgid "Loading of pixmap \"%s\" failed"
+msgstr "Échec de chargement du pixmap \"%s\""
+
+#: src/icewmbg.cc:571 src/ycursor.cc:102 src/yimage.cc:81 src/ypixbuf.cc:879
+#, c-format
+msgid "Loading of pixmap \"%s\" failed: %s"
+msgstr "Échec de chargement de l'image %s : %s"
+
+#: src/wmdialog.cc:83
+#, fuzzy
+msgid "Loc_k Workstation"
+msgstr "_Verrouiller l'écran"
+
+#: src/ylocale.cc:46
+msgid "Locale not supported by C library. Falling back to 'C' locale'."
+msgstr ""
+"Locale non supportée par la bibliothèque C. Utilisation de la locale \"C\"."
+
+#: src/wmapp.cc:880 src/wmapp.cc:882
+msgid "Lock _Workstation"
+msgstr "_Verrouiller l'écran"
+
+#: src/wmapp.cc:1770
+msgid ""
+"Logout will close all active applications.\n"
+"Proceed?"
+msgstr ""
+"La déconnexion va terminer toutes les applications ouvertes.\n"
+"Êtes-vous sûr de vouloir vous déconnecter ?"
+
+#: src/wmapp.cc:954
+msgid "Ma_ximize"
+msgstr "Ma_ximiser"
+
+#: src/wmframe.cc:165 src/wmframe.cc:3437
+msgid "Maximize"
+msgstr "Maximiser"
+
+#: src/yapp.cc:483
+#, c-format
+msgid "Message Loop: select failed (errno=%d)"
+msgstr "Boucle de message : échec de sélection (errno=%d)"
+
+#: src/wmapp.cc:952
+msgid "Mi_nimize"
+msgstr "Icô_nifier"
+
+#: src/wmframe.cc:178
+msgid "Minimize"
+msgstr "Icônifier"
+
+#: src/yfontcore.cc:126
+#, c-format
+msgid "Missing codesets for fontset \"%s\":"
+msgstr "Encodage absent pour le jeu de police \"%s\" : "
+
+#: src/wmprog.cc:198
+msgid "Missing command argument"
+msgstr "Paramètre de commande manquant"
+
+#: src/wmapp.cc:978 src/wmwinlist.cc:310
+msgid "Move _To"
+msgstr "Envo_yer vers"
+
+#: src/fdomenu.cc:82
+#, fuzzy
+msgid "Multimedia"
+msgstr "Multimédia"
+
+#: src/wmapp.cc:528
+#, c-format
+msgid "Multiple references for gradient \"%s\""
+msgstr "Références multiples pour le dégradé \"%s\""
+
+#: src/icesound.cc:1175
+msgid "Multiple sound interfaces given."
+msgstr "Plusieurs interfaces sonores données."
+
+#: src/icesh.cc:316
+#, c-format
+msgid "Named symbols of the domain `%s' (numeric range: %ld-%ld):\n"
+msgstr "Symboles nommés du domaine \"%s\" (intervalle numérique: %ld-%ld) :\n"
+
+#: src/fdomenu.cc:83
+#, fuzzy
+msgid "Network"
+msgstr "Réseau"
+
+#: src/icesame.cc:60
+msgid "New"
+msgstr "Nouveau"
+
+#: src/icehelp.cc:719
+msgid "Next"
+msgstr "Suivant"
+
+#: src/icesh.cc:696
+msgid "No actions specified."
+msgstr "Aucune action spécifiée."
+
+#: src/icesound.cc:468
+#, c-format
+msgid "No such device: %s"
+msgstr "Le périphérique %s n'existe pas"
+
+#: src/wmapp.cc:979
+msgid "Occupy _All"
+msgstr "Occuper tous les bure_aux"
+
+#: src/fdomenu.cc:84
+#, fuzzy
+msgid "Office"
+msgstr "Bureautique"
+
+#: src/icelist.cc:89
+msgid "Open"
+msgstr "Ouvrir"
+
+#: src/fdomenu.cc:88
+#, fuzzy
+msgid "Other"
+msgstr "Autre"
+
+#: src/icewmhint.cc:65
+#, c-format
+msgid "Out of memory (len=%d)."
+msgstr "Plus de mémoire (len=%d)."
+
+#: src/ypaths.cc:149
+#, fuzzy, c-format
+msgid "Out of memory for image %s"
+msgstr "Plus de mémoire pour l'image %s"
+
+#: src/ypaths.cc:175
+#, fuzzy, c-format
+msgid "Out of memory for image: %s"
+msgstr "Plus de mémoire pour l'image : %s"
+
+#: src/yicon.cc:167
+#, c-format
+msgid "Out of memory for pixmap \"%s\""
+msgstr "Plus de mémoire pour le pixmap \"%s\""
+
+#: src/wmoption.cc:387
+msgid "Out of memory for window options"
+msgstr "Plus de mémoire pour les options de fenêtre"
+
+#: src/icesound.cc:939 src/icesound.cc:952
+#, c-format
+msgid "Overriding previous audio mode `%s'."
+msgstr "Écrasement du mode audio précédent \"%s\"."
+
+#: src/aapm.cc:193 src/aapm.cc:516 src/aapm.cc:756
+msgid "P"
+msgstr "C"
+
+#: src/yinput.cc:58
+msgid "Paste _Selection"
+msgstr "Coller la _sélection"
+
+#: src/icesound.cc:647
+#, c-format
+msgid "Playing sample #%d"
+msgstr "Lecture du son n°%d"
+
+#: src/icesound.cc:256 src/icesound.cc:424 src/icesound.cc:792
+#, c-format
+msgid "Playing sample #%d (%s)"
+msgstr "Lecture du son n°%d (%s)"
+
+#: src/icehelp.cc:718
+msgid "Previous"
+msgstr "Précédent"
+
+#: src/wmprog.cc:858 src/wmprog.cc:860
+msgid "Programs"
+msgstr "Programmes"
+
+#: src/wmapp.cc:970
+msgid "R_aise"
+msgstr "A_vant plan"
+
+#
+#: src/wmframe.cc:218
+msgid "Raise/Lower"
+msgstr "Premier/Dernier plan"
+
+#: src/wmapp.cc:886 src/wmapp.cc:888 src/wmdialog.cc:111
+msgid "Re_boot"
+msgstr "Re_démarrer l'ordinateur"
+
+#: src/icesound.cc:1242
+#, c-format
+msgid "Received signal %d: Reloading samples..."
+msgstr "Réception du signal %d : rechargement des sons ..."
+
+#: src/icesound.cc:1233
+#, c-format
+msgid "Received signal %d: Terminating..."
+msgstr "Réception du signal %d : terminaison ..."
+
+#: src/icesame.cc:61
+msgid "Restart"
+msgstr "Redémarrer"
+
+#: src/wmapp.cc:900 src/wmapp.cc:902
+msgid "Restart _Icewm"
+msgstr "Redémarrer _IceWM"
+
+#: src/wmapp.cc:906
+msgid "Restart _Xterm"
+msgstr "Remplacer IceWM par _XTerm"
+
+#: src/wmframe.cc:3434
+msgid "Restore"
+msgstr "Restaurer"
+
+#: src/wmapp.cc:963
+msgid "Roll_up"
+msgstr "Enro_uler"
+
+#: src/wmframe.cc:3468
+msgid "Rolldown"
+msgstr "Dérouler"
+
+#: src/wmframe.cc:209 src/wmframe.cc:3470
+msgid "Rollup"
+msgstr "Enrouler"
+
+#: src/icesame.cc:66
+msgid "Same Game"
+msgstr "Même jeu"
+
+#: src/icesound.cc:588
+#, c-format
+msgid "Sample <%d> uploaded as `%s:%s'"
+msgstr "Son <%d> chargé, correspond à \"%s:%s\""
+
+#: src/fdomenu.cc:76
+#, fuzzy
+msgid "Screensavers"
+msgstr "Économiseurs d'écran"
+
+#: src/wmprog.cc:979 src/wmprog.cc:981
+#, fuzzy
+msgid "Se_ttings"
+msgstr "_Réglages"
+
+#: src/yinput.cc:60
+msgid "Select _All"
+msgstr "T_out sélectionner"
+
+#: src/wmsession.cc:239 src/wmsession.cc:255 src/wmsession.cc:265
+#, c-format
+msgid "Session Manager: Unknown line %s"
+msgstr "Gestionnaire de session : ligne \"%s\" inconnue"
+
+#: src/fdomenu.cc:75
+#, fuzzy
+msgid "Settings"
+msgstr "Réglages"
+
+#: src/wmtaskbar.cc:590
+msgid "Show Desktop"
+msgstr "Montrer le bureau"
+
+#: src/wmapp.cc:892 src/wmapp.cc:894 src/wmdialog.cc:118
+msgid "Shut_down"
+msgstr "_Arrêter l'ordinateur"
+
+#: src/iceskt.cc:36
+#, c-format
+msgid "Socket error: %d"
+msgstr "Erreur de socket : %d"
+
+#: src/icesound.cc:1187 src/icesound.cc:1199 src/icesound.cc:1212
+#, c-format
+msgid "Support for the %s interface not compiled."
+msgstr "Support pour l'interface %s non compilé."
+
+#: src/wmoption.cc:340
+msgid "Syntax error in window options"
+msgstr "Erreur de syntaxe dans les options de fenêtre"
+
+#: src/fdomenu.cc:85
+#, fuzzy
+msgid "System"
+msgstr "Système"
+
+#: src/wmtaskbar.cc:408 src/wmwinlist.cc:313 src/wmwinlist.cc:326
+msgid "T_ile Horizontally"
+msgstr "Mosaïque hori_zontale"
+
+#: src/wmtaskbar.cc:258 src/wmtaskbar.cc:259
+msgid "Task Bar"
+msgstr "Barre de tâche"
+
+#: src/wmabout.cc:39
+msgid "Theme Author:"
+msgstr "Auteur du thème :"
+
+#: src/wmabout.cc:38
+msgid "Theme Description:"
+msgstr "Description du thème :"
+
+#: src/wmabout.cc:37
+msgid "Theme:"
+msgstr "Thème :"
+
+#: src/wmtaskbar.cc:407 src/wmwinlist.cc:312 src/wmwinlist.cc:325
+msgid "Tile _Vertically"
+msgstr "Mosaïque _verticale"
+
+#: src/wmapp.cc:990
+msgid "Tray _icon"
+msgstr "Icône de barre de tâche"
+
+#: src/wmapp.cc:444
+msgid "Unable to get current font path."
+msgstr "Impossible d'obtenir le chemin de recherche des polices."
+
+#: src/icesame.cc:58
+msgid "Undo"
+msgstr "Annuler"
+
+#: src/wmprog.cc:357
+#, c-format
+msgid "Unexepected keyword: %s"
+msgstr "Mot-clé inattendu : %s"
+
+#: src/wmapp.cc:471
+msgid "Unexpected format of ICEWM_FONT_PATH property"
+msgstr "Format de la propriété ICEWM_FONT_PATH incorrect"
+
+#: src/icesh.cc:914
+#, c-format
+msgid "Unknown action: `%s'"
+msgstr "Action inconnue : \"%s\""
+
+#: src/movesize.cc:903
+#, c-format
+msgid "Unknown direction in move/resize request: %d"
+msgstr "Direction inconnue dans la requête de déplacement/dimensionnement: %d"
+
+#: src/wmapp.cc:603
+#, c-format
+msgid "Unknown gradient name: %s"
+msgstr "Nom de dégradé inconnu : %s"
+
+#: src/yconfig.cc:186
+#, c-format
+msgid "Unknown key name %s in %s"
+msgstr "Nom de touche inconnu : %s dans %s"
+
+#: src/wmoption.cc:257
+#, c-format
+msgid "Unknown window option: %s"
+msgstr "Option de fenêtre inconnue : %s"
+
+#: src/ycmdline.cc:48
+#, c-format
+msgid "Unrecognized argument: %s\n"
+msgstr "Paramètre inconnu : %s\n"
+
+#: src/ycmdline.cc:43
+#, c-format
+msgid "Unrecognized option: %s\n"
+msgstr "Option inconnue : %s\n"
+
+#: src/icesound.cc:1216
+#, c-format
+msgid "Unsupported interface: %s."
+msgstr "Interface %s non supportée."
+
+#: src/icesh.cc:616
+msgid "Usage error: "
+msgstr "Erreur d'utilisation : "
+
+#: src/icehelp.cc:1327
+#, c-format
+msgid ""
+"Usage: %s FILENAME\n"
+"\n"
+"A very simple HTML browser displaying the document specified by FILENAME.\n"
+"\n"
+msgstr ""
+"Utilisation: %s FICHIER\n"
+"\n"
+"Un simple navigateur HTML affichant le document spécifié par FICHIER.\n"
+"\n"
+
+#: src/wmapp.cc:1658
+#, c-format
+msgid ""
+"Usage: %s [OPTIONS]\n"
+"Starts the IceWM window manager.\n"
+"\n"
+"Options:\n"
+"  --display=NAME      NAME of the X server to use.\n"
+"%s  --sync              Synchronize X11 commands.\n"
+"\n"
+"  -c, --config=FILE   Load preferences from FILE.\n"
+"  -t, --theme=FILE    Load theme from FILE.\n"
+"  -n, --no-configure  Ignore preferences file.\n"
+"\n"
+"  -v, --version       Prints version information and exits.\n"
+"  -h, --help          Prints this usage screen and exits.\n"
+"%s  --replace           Replace an existing window manager.\n"
+"  --restart           Don't use this: It's an internal flag.\n"
+"\n"
+"Environment variables:\n"
+"  ICEWM_PRIVCFG=PATH  Directory to use for user private configuration "
+"files,\n"
+"                      \"$HOME/.icewm/\" by default.\n"
+"  DISPLAY=NAME        Name of the X server to use, depends on Xlib by "
+"default.\n"
+"  MAIL=URL            Location of your mailbox. If the schema is omitted\n"
+"                      the local \"file\" schema is assumed.\n"
+"\n"
+"Visit http://www.icewm.org/ for report bugs, support requests, comments...\n"
+msgstr ""
+
+#: src/icesh.cc:569
+#, c-format
+msgid ""
+"Usage: %s [OPTIONS] ACTIONS\n"
+"\n"
+"Options:\n"
+"  -display DISPLAY            Connects to the X server specified by "
+"DISPLAY.\n"
+"                              Default: $DISPLAY or :0.0 when not set.\n"
+"  -window WINDOW_ID           Specifies the window to manipulate. Special\n"
+"                              identifiers are `root' for the root window "
+"and\n"
+"                              `focus' for the currently focused window.\n"
+"  -class WM_CLASS             Window management class of the window(s) to\n"
+"                              manipulate. If WM_CLASS contains a period, "
+"only\n"
+"                              windows with exactly the same WM_CLASS "
+"property\n"
+"                              are matched. If there is no period, windows "
+"of\n"
+"                              the same class and windows of the same "
+"instance\n"
+"                              (aka. `-name') are selected.\n"
+"\n"
+"Actions:\n"
+"  setIconTitle   TITLE        Set the icon title.\n"
+"  setWindowTitle TITLE        Set the window title.\n"
+"  setGeometry    geometry     Set the window geometry\n"
+"  setState       MASK STATE   Set the GNOME window state to STATE.\n"
+"                              Only the bits selected by MASK are affected.\n"
+"                              STATE and MASK are expressions of the domain\n"
+"                              `GNOME window state'.\n"
+"  toggleState    STATE        Toggle the GNOME window state bits specified "
+"by\n"
+"                              the STATE expression.\n"
+"  setHints       HINTS        Set the GNOME window hints to HINTS.\n"
+"  setLayer       LAYER        Moves the window to another GNOME window "
+"layer.\n"
+"  setWorkspace   WORKSPACE    Moves the window to another workspace. Select\n"
+"                              the root window to change the current "
+"workspace.\n"
+"  listWorkspaces              Lists the names of all workspaces.\n"
+"  setTrayOption  TRAYOPTION   Set the IceWM tray option hint.\n"
+"\n"
+"Expressions:\n"
+"  Expressions are list of symbols of one domain concatenated by `+' or `|':\n"
+"\n"
+"  EXPRESSION ::= SYMBOL | EXPRESSION ( `+' | `|' ) SYMBOL\n"
+"\n"
+msgstr ""
+
+#: src/icesound.cc:978
+#, fuzzy, c-format
+msgid ""
+"Usage: %s [OPTION]...\n"
+"\n"
+"Plays audio files on GUI events raised by IceWM.\n"
+"\n"
+"Options:\n"
+"\n"
+"-d, --display=DISPLAY         Display used by IceWM (default: $DISPLAY).\n"
+"-s, --sample-dir=DIR          Specifies the directory which contains\n"
+"                              the sound files (ie ~/.icewm/sounds).\n"
+"-i, --interface=TARGET        Specifies the sound output target\n"
+"                              interface, one of OSS, YIFF, ESD, ALSA\n"
+"-D, --device=DEVICE           (ALSA & OSS only) specifies the device to use\n"
+"                              (OSS default: /dev/dsp; ALSA: default).\n"
+"-S, --server=ADDR:PORT        (ESD and YIFF) specifies server address and\n"
+"                              port number (default localhost:16001 for ESD\n"
+"                              and localhost:9433 for YIFF).\n"
+"-m, --audio-mode[=MODE]       (YIFF only) specifies the Audio mode (leave\n"
+"                              blank to get a list).\n"
+"--audio-mode-auto             (YIFF only) change Audio mode on the fly to\n"
+"                              best match sample's Audio (can cause\n"
+"                              problems with other Y clients, overrides\n"
+"                              --audio-mode).\n"
+"\n"
+"-v, --verbose                 Be verbose (prints out each sound event to\n"
+"                              stdout).\n"
+"-V, --version                 Prints version information and exits.\n"
+"-h, --help                    Prints (this) help screen and exits.\n"
+"\n"
+"Return values:\n"
+"\n"
+"0     Success.\n"
+"1     General error.\n"
+"2     Command line error.\n"
+"3     Subsystems error (ie cannot connect to server).\n"
+"\n"
+msgstr ""
+"Utilisation : %s [OPTION] ...\n"
+"\n"
+"Lit les fichiers audio correspondant aux événements émits par IceWM\n"
+"\n"
+"Options :\n"
+"\n"
+"-d, --display=DISPLAY      Display utilisé by IceWM (par défaut: $DISPLAY).\n"
+"-s, --sample-dir=DOSSIER   Spécifie le répertoire contenant les fichiers\n"
+"                           son (par exemple ~/.icewm/sounds).\n"
+"-i, --interface=TARGET     Spécifie l'interface audio à utiliser. Choix\n"
+"                           possibles : ALSA, OSS, YIFF, ESD.\n"
+"-D, --device=PERIPHERIQUE  ALSA OSS: périphérique son. Par défaut\n"
+"                           le périphérique (ALSA) default (OSS) /dev/dsp est "
+"utilisé.\n"
+"-S, --server=ADR:PORT      ESD & YIFF seulement : adresse & port du serveur\n"
+"                           de son. Pour ESD, localhost:16001 est utilisé "
+"par\n"
+"                           défaut. Pour YIFF, il s'agit de localhost:9433\n"
+"-m, --audio-mode[=MODE]    YIFF seulement : spécifie le mode audio (laisser\n"
+"                           vide pour obtenir la liste des modes possibles).\n"
+"--audio-mode-auto          YIFF seulement : change le mode audio à la\n"
+"                           volée pour correspondre au mieux au son\n"
+"                           (peut causer des problèmes avec d'autres\n"
+"                           clients Y, écrase --audio-mode).\n"
+"\n"
+"-v, --verbose              Mode verbeux (imprime sur la sortie standard\n"
+"                           tous les événements sonores)\n"
+"-V, --version              Affiche le version et sort.\n"
+"-h, --help                 Affiche cet écran d'aide et sort.\n"
+"\n"
+"Valeurs retournées :\n"
+"\n"
+"0 : succès.\n"
+"1 : erreur générale.\n"
+"2 : erreur sur la ligne de commande.\n"
+"3 : erreur sous-systèmes (par exemple, connexion au serveur impossible).\n"
+"\n"
+
+#: src/icewmbg.cc:410
+msgid ""
+"Usage: icewmbg [ -r | -q ]\n"
+" -r  Restart icewmbg\n"
+" -q  Quit icewmbg\n"
+"Loads desktop background according to preferences file\n"
+" DesktopBackgroundCenter  - Display desktop background centered\n"
+" DesktopBackgroundScaled  - Display desktop background scaled\n"
+" SupportSemitransparency  - Support for semitransparent terminals\n"
+" DesktopBackgroundColor   - Desktop background color\n"
+" DesktopBackgroundImage   - Desktop background image\n"
+" DesktopTransparencyColor - Color to announce for semi-transparent windows\n"
+" DesktopTransparencyImage - Image to announce for semi-transparent windows\n"
+"\n"
+" center:0 scaled:0 = tiled\n"
+" center:1 scaled:1 = keep aspect ratio\n"
+msgstr ""
+
+#: src/icewmhint.cc:49
+msgid "Usage: icewmhint [class.instance] option arg\n"
+msgstr "Utilisation : icewmhint [classe.instance] option paramètre\n"
+
+#: src/amailbox.cc:343
+#, c-format
+msgid "Using MailBox \"%s\"\n"
+msgstr "Utilisation de la boîte à lettre \"%s\"\n"
+
+#: src/ypixbuf.cc:482 src/ypixbuf.cc:668
+#, c-format
+msgid ""
+"Using fallback mechanism to convert pixels (depth: %d; masks (red/green/"
+"blue): %0*x/%0*x/%0*x)"
+msgstr ""
+"Utilisation du mécanisme par défaut pour convertir les pixels (profondeur: "
+"%d ; masques (rouge/vert/bleu): %0*x/%0*x/%0*x)"
+
+#: src/wmframe.cc:1731
+msgid ""
+"WARNING! All unsaved changes will be lost when\n"
+"this client is killed. Do you wish to proceed?"
+msgstr ""
+"ATTENTION ! Tous les changements non sauvegardés seront\n"
+"perdus quand ce client sera tué. Souhaitez-vous continuer ?"
+
+#: src/fdomenu.cc:86
+#, fuzzy
+msgid "WINE"
+msgstr "WINE"
+
+#: src/misc.cc:330
+msgid "Warning: "
+msgstr "Attention : "
+
+#: src/wmwinlist.cc:342 src/wmwinlist.cc:343
+msgid "Window list"
+msgstr "Liste des fenêtres"
+
+#: src/wmtaskbar.cc:581
+msgid "Window list menu"
+msgstr "Menu des fenêtres"
+
+#: src/icesh.cc:435
+#, c-format
+msgid "Workspace out of range: %d"
+msgstr "Bureau hors limites : %d"
+
+#: src/aworkspaces.cc:155 src/aworkspaces.cc:220 src/aworkspaces.cc:276
+#: src/wmstatus.cc:178
+msgid "Workspace: "
+msgstr "Bureau : "
+
+#: src/iceview.cc:74
+msgid "Wrap Lines"
+msgstr "Retour à la ligne automatique"
+
+#: src/wmdialog.cc:125 src/wmprog.cc:906 src/wmprog.cc:908 src/wmtaskbar.cc:430
+#: src/wmtaskbar.cc:433
+msgid "_About"
+msgstr "À _propos"
+
+#: src/wmapp.cc:929
+msgid "_Above Dock"
+msgstr "_Au dessus du Dock"
+
+#: src/wmtaskbar.cc:410 src/wmwinlist.cc:315 src/wmwinlist.cc:328
+msgid "_Arrange"
+msgstr "_Arranger"
+
+#: src/wmapp.cc:933
+msgid "_Below"
+msgstr "En dess_ous"
+
+#: src/wmdialog.cc:97 src/ymsgbox.cc:46
+msgid "_Cancel"
+msgstr "A_nnuler"
+
+#: src/wmapp.cc:867
+msgid "_Cancel logout"
+msgstr "_Annuler la déconnexion"
+
+#: src/wmprog.cc:945
+msgid "_Click to focus"
+msgstr ""
+
+#: src/wmapp.cc:996 src/wmwinlist.cc:295 src/wmwinlist.cc:321
+msgid "_Close"
+msgstr "_Fermer"
+
+#: src/yinput.cc:56
+msgid "_Copy"
+msgstr "_Copier"
+
+#: src/wmapp.cc:930
+msgid "_Dock"
+msgstr "_Dock"
+
+#: src/wmprog.cc:962 src/wmprog.cc:964
+msgid "_Focus"
+msgstr ""
+
+#: src/wmapp.cc:956
+msgid "_Fullscreen"
+msgstr "Plein écran"
+
+#: src/wmprog.cc:922
+msgid "_Help"
+msgstr "_Aide"
+
+#: src/wmapp.cc:960 src/wmwinlist.cc:307
+msgid "_Hide"
+msgstr "Cac_her"
+
+#: src/wmtaskbar.cc:412 src/wmwinlist.cc:318 src/wmwinlist.cc:330
+msgid "_Hide All"
+msgstr "Tout _cacher"
+
+#: src/wmapp.cc:998 src/wmwinlist.cc:297
+msgid "_Kill Client"
+msgstr "Tuer le client X"
+
+#: src/wmtaskbar.cc:428
+msgid "_License"
+msgstr "_Licence"
+
+# OS/2 is dead, but... ;-)
+#: src/wmapp.cc:866
+msgid "_Logout"
+msgstr "_Déconnexion"
+
+#: src/wmdialog.cc:90 src/wmprog.cc:989 src/wmprog.cc:991 src/wmprog.cc:995
+#: src/wmprog.cc:997 src/wmtaskbar.cc:438 src/wmtaskbar.cc:440
+msgid "_Logout..."
+msgstr "_Déconnexion ..."
+
+#: src/wmapp.cc:972
+msgid "_Lower"
+msgstr "Arr_ière plan"
+
+#: src/wmapp.cc:928
+msgid "_Menu"
+msgstr "_Menu"
+
+#: src/wmwinlist.cc:309
+msgid "_Minimize"
+msgstr "Mi_nimiser"
+
+#: src/wmtaskbar.cc:411 src/wmwinlist.cc:317 src/wmwinlist.cc:329
+msgid "_Minimize All"
+msgstr "_Tout icônifier"
+
+#: src/wmapp.cc:948
+msgid "_Move"
+msgstr "Dé_placer"
+
+#: src/wmapp.cc:932
+msgid "_Normal"
+msgstr "_Normal"
+
+#: src/ymsgbox.cc:38
+msgid "_OK"
+msgstr "_Valider"
+
+#: src/wmapp.cc:931
+msgid "_OnTop"
+msgstr "Au de_ssus"
+
+#: src/yinput.cc:57
+msgid "_Paste"
+msgstr "Co_ller"
+
+#: src/wmtaskbar.cc:421
+msgid "_Refresh"
+msgstr "_Rafraîchir"
+
+#: src/wmdialog.cc:104
+msgid "_Restart icewm"
+msgstr "_Redémarrer IceWM"
+
+#: src/wmapp.cc:946
+msgid "_Restore"
+msgstr "_Restaurer"
+
+#: src/wmprog.cc:867 src/wmprog.cc:869
+msgid "_Run..."
+msgstr "_Exécuter ..."
+
+#: src/wmwinlist.cc:305
+msgid "_Show"
+msgstr "_Montrer"
+
+#: src/wmapp.cc:950
+msgid "_Size"
+msgstr "Dimen_sionner"
+
+#: src/wmprog.cc:950
+msgid "_Sloppy mouse focus"
+msgstr ""
+
+#: src/wmwinlist.cc:299
+msgid "_Terminate Process"
+msgstr "_Terminer le processus"
+
+#: src/wmprog.cc:973 src/wmprog.cc:975
+msgid "_Themes"
+msgstr "_Thèmes"
+
+#: src/wmtaskbar.cc:413 src/wmwinlist.cc:319 src/wmwinlist.cc:331
+msgid "_Undo"
+msgstr "Ann_uler"
+
+#: src/wmapp.cc:1002 src/wmdialog.cc:132 src/wmwinmenu.cc:137
+msgid "_Window list"
+msgstr "_Liste des fenêtres"
+
+#: src/wmprog.cc:878 src/wmprog.cc:880 src/wmtaskbar.cc:418
+msgid "_Windows"
+msgstr "_Fenêtres"
+
+#: src/acpustatus.cc:214
+#, c-format
+msgid ""
+"bars:\tuser = %llu, nice = %llu, sys = %llu, iowait = %llu, intr = %llu, "
+"softirq = %llu, steal = %llu (h = %i)\n"
+msgstr ""
+
+#: src/wmabout.cc:69
+msgid "icewm - About"
+msgstr "IceWM - À propos"
+
+#: src/ylocale.cc:100 src/ylocale.cc:107
+#, c-format
+msgid "iconv doesn't supply (sufficient) %s to %s converters."
+msgstr "iconv ne fournit pas de convertisseur %s vers %s suffisant."
+
+#: src/acpustatus.cc:209
+#, c-format
+msgid ""
+"stat:\tuser = %llu, nice = %llu, sys = %llu, idle = %llu, iowait = %llu, "
+"intr = %llu, softirq = %llu, steal = %llu\n"
+msgstr ""
+
+#: src/icesh.cc:896
+#, c-format
+msgid "workspace #%d: `%s'\n"
+msgstr "Bureau n°%d : \"%s\"\n"
+
+#, fuzzy
+#~ msgid ""
+#~ "             Usage: %s [OPTION]...\n"
+#~ "             \n"
+#~ "             Plays audio files on GUI events raised by IceWM.\n"
+#~ "             \n"
+#~ "             Options:\n"
+#~ "             \n"
+#~ "             -d, --display=DISPLAY         Display used by IceWM "
+#~ "(default: $DISPLAY).\n"
+#~ "             -s, --sample-dir=DIR          Specifies the directory which "
+#~ "contains\n"
+#~ "             the sound files (ie ~/.icewm/sounds).\n"
+#~ "             -i, --interface=TARGET        Specifies the sound output "
+#~ "target\n"
+#~ "             interface, one of OSS, YIFF, ESD\n"
+#~ "             -D, --device=DEVICE           (OSS only) specifies the "
+#~ "digital signal\n"
+#~ "             processor (default /dev/dsp).\n"
+#~ "             -S, --server=ADDR:PORT     (ESD and YIFF) specifies server "
+#~ "address and\n"
+#~ "             port number (default localhost:16001 for ESD\n"
+#~ "             and localhost:9433 for YIFF).\n"
+#~ "             -m, --audio-mode[=MODE]       (YIFF only) specifies the "
+#~ "Audio mode (leave\n"
+#~ "             blank to get a list).\n"
+#~ "             --audio-mode-auto          (YIFF only) change Audio mode on "
+#~ "the fly to\n"
+#~ "             best match sample's Audio (can cause\n"
+#~ "             problems with other Y clients, overrides\n"
+#~ "             --audio-mode).\n"
+#~ "             \n"
+#~ "             -v, --verbose                 Be verbose (prints out each "
+#~ "sound event to\n"
+#~ "             stdout).\n"
+#~ "             -V, --version                 Prints version information and "
+#~ "exits.\n"
+#~ "             -h, --help                    Prints (this) help screen and "
+#~ "exits.\n"
+#~ "             \n"
+#~ "             Return values:\n"
+#~ "             \n"
+#~ "             0     Success.\n"
+#~ "             1     General error.\n"
+#~ "             2     Command line error.\n"
+#~ "             3     Subsystems error (ie cannot connect to server).\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Utilisation : %s [OPTION] ...\n"
+#~ "\n"
+#~ "Lit les fichiers audio correspondant aux événements émits par IceWM\n"
+#~ "\n"
+#~ "Options :\n"
+#~ "\n"
+#~ "  -d, --display=DISPLAY      Display utilisé by IceWM (par défaut: "
+#~ "$DISPLAY).\n"
+#~ "  -s, --sample-dir=DOSSIER   Spécifie le répertoire contenant les "
+#~ "fichiers                             son (par exemple ~/.icewm/sounds).\n"
+#~ "  -i, --interface=TARGET     Spécifie l'interface audio à utiliser. "
+#~ "Choix\n"
+#~ "                             possibles : OSS, YIFF, ESD.\n"
+#~ "  -D, --device=PERIPHERIQUE  OSS seulement : périphérique son. Par "
+#~ "défaut\n"
+#~ "                             le périphérique /dev/dsp est utilisé.\n"
+#~ "  -S, --server=ADR:PORT      ESD & YIFF seulement : adresse & port du "
+#~ "serveur\n"
+#~ "                             de son. Pour ESD, localhost:16001 est "
+#~ "utilisé par\n"
+#~ "                             défaut. Pour YIFF, il s'agit de "
+#~ "localhost:9433\n"
+#~ "  -m, --audio-mode[=MODE]    YIFF seulement : spécifie le mode audio "
+#~ "(laisser\n"
+#~ "                             vide pour obtenir la liste des modes "
+#~ "possibles).\n"
+#~ "  --audio-mode-auto          YIFF seulement : change le mode audio à la\n"
+#~ "                             volée pour correspondre au mieux au son\n"
+#~ "                             (peut causer des problèmes avec d'autres\n"
+#~ "                             clients Y, écrase --audio-mode).\n"
+#~ "\n"
+#~ "  -v, --verbose              Mode verbeux (imprime sur la sortie "
+#~ "standard\n"
+#~ "                             tous les événements sonores)\n"
+#~ "  -V, --version              Affiche le version et sort.\n"
+#~ "  -h, --help                 Affiche cet écran d'aide et sort.\n"
+#~ "\n"
+#~ "Valeurs retournées :\n"
+#~ "\n"
+#~ " 0 : succès.\n"
+#~ " 1 : erreur générale.\n"
+#~ " 2 : erreur sur la ligne de commande.\n"
+#~ " 3 : erreur sous-systèmes (par exemple, connexion au serveur "
+#~ "impossible).\n"
+#~ "\n"
+
+#~ msgid " processes."
+#~ msgstr " processus."
+
+#~ msgid ""
+#~ "# NOTE: All settings are commented out by default, be sure to\n"
+#~ "#       uncomment them if you change them!\n"
+#~ "\n"
+#~ msgstr ""
+#~ "# NOTE: Tous les paramètres sont commentés par défaut, assurez-vous\n"
+#~ "#          de les décommenter si vous les modifiez !\n"
+#~ "\n"
+
+#~ msgid ""
+#~ "# preferences(%s) - generated by genpref\n"
+#~ "\n"
+#~ msgstr ""
+#~ "# préférences(%s) - générées par genpref\n"
+#~ "\n"
+
+#~ msgid "%s:%d: Failed to copy drawable 0x%x to pixel buffer"
+#~ msgstr "%s:%d: échec de copie du dessin 0x%x dans le tampon de pixels"
+
+#~ msgid "%s:%d: Failed to copy drawable 0x%x to pixel buffer (%d:%d-%dx%d"
+#~ msgstr ""
+#~ "%s:%d: échec de copie du dessin 0x%x dans le tampon de pixel (%d:%d-%dx%d)"
+
+#~ msgid "%s@%d: %s\n"
+#~ msgstr "%s@%d: %s\n"
+
+#~ msgid "%s@%s: Sent: %db Rcvd: %db in %ds"
+#~ msgstr "%s@%s: Envoyé : %db Reçu: %db en %ds"
+
+#~ msgid "/proc/apm - unknown format (%d)"
+#~ msgstr "/proc/apm - Format inconnu (%d)"
+
+#~ msgid "CPU Load: %3.2f %3.2f %3.2f, %d processes."
+#~ msgstr "Charge CPU: %3.2f %3.2f %3.2f, %d processus"
+
+#~ msgid "Cancel"
+#~ msgstr "Annuler"
+
+#~ msgid "Compiled with DEBUG flag. Debugging messages will be printed."
+#~ msgstr "Option DEBUG active : les messages de déboguage seront affichés."
+
+#~ msgid "Could not find RGB pixel buffer %s"
+#~ msgstr "Impossible de trouver le tampon de pixel RVB %s"
+
+#~ msgid "Could not find pixel map %s"
+#~ msgstr "Impossible de trouver le pixmap %s"
+
+#~ msgid "Failed to create anonymous pipe (errno=%d)."
+#~ msgstr "Échec de création de tube anonyme (errno=%d)."
+
+#~ msgid "Failed to create anonymous pipe: %s"
+#~ msgstr "Échec de création d'un tube anonyme : %s"
+
+#~ msgid "Failed to create child process: %s"
+#~ msgstr "Échec de création d'un processus fils: %s"
+
+#~ msgid "Failed to duplicate file descriptor: %s"
+#~ msgstr "Échec de duplication du descripteur de fichier : %s"
+
+#~ msgid "Failed to execute %s: %s"
+#~ msgstr "Échec d'exécution de %s : %s"
+
+#~ msgid "Failed to open %s: %s"
+#~ msgstr "Échec d'ouverture de %s : %s"
+
+#~ msgid "Fallback to '*fixed*' failed."
+#~ msgstr "Retour en police '*fixe*' impossible."
+
+#~ msgid "Fallback to 'fixed' failed."
+#~ msgstr "Retour en police 'fixe' impossible."
+
+#~ msgid "Forking failed (errno=%d)"
+#~ msgstr "Échec de duplication de processus (errno=%d)."
+
+#~ msgid "Gnome"
+#~ msgstr "Gnome"
+
+#~ msgid "Gnome User Apps"
+#~ msgstr "Applications Gnome"
+
+#~ msgid "Identifier expected"
+#~ msgstr "Identifiant attendu"
+
+#~ msgid ""
+#~ "Interface %s:\n"
+#~ "  Current rate (in/out):\t%li %s/%li %s\n"
+#~ "  Current average (in/out):\t%lli %s/%lli %s\n"
+#~ "  Total average (in/out):\t%li %s/%li %s\n"
+#~ "  Transferred (in/out):\t%lli %s/%lli %s\n"
+#~ "  Online time:\t%ld:%02ld:%02ld%s%s"
+#~ msgstr ""
+#~ "Interface réseau %s :\n"
+#~ "  Taux de transfert instantané (E/S) :\t%li %s/%li %s\n"
+#~ "  Taux de transfert moyen (E/S) :\t%lli %s/%lli %s\n"
+#~ "  Taux de transfert total (E/S) :\t%li %s/%li %s\n"
+#~ "  Données transférées (E/S) :\t%lli %s/%lli %s\n"
+#~ "  Temps passé en ligne:\t%ld:%02ld:%02ld%s%s"
+
+#~ msgid "Invalid cursor pixmap: \"%s\" contains too many unique colors"
+#~ msgstr ""
+#~ "Pixmap de curseur incorrect : \"%s\" contient trop de couleurs uniques"
+
+#~ msgid "Invalid fonts in fontset definition \"%s\":"
+#~ msgstr "Fontes invalides dans la définition du fontset \"%s\":"
+
+#~ msgid "Invalid token"
+#~ msgstr "Marque incorrecte"
+
+#~ msgid "KDE"
+#~ msgstr "KDE"
+
+#~ msgid "Load pixmap %s failed with rc=%d"
+#~ msgstr "Le chargement du pixmap %s a échoué, code d'erreur : %d"
+
+#, fuzzy
+#~ msgid "Loading of pixmap %s failed with rc=%d"
+#~ msgstr "Le chargement du pixmap %s a échoué, code d'erreur : %d"
+
+#~ msgid "M"
+#~ msgstr "L"
+
+#~ msgid "Missing fontset in loading '%s'"
+#~ msgstr "Groupe de police manquant en chargeant '%s'"
+
+#~ msgid "Not a hexadecimal number: %c%c (in \"%s\")"
+#~ msgstr "Nombre hexadécimal incorrect : %c%c (dans \"%s\")"
+
+#~ msgid "Not a regular file: %s"
+#~ msgstr "N'est pas un fichier : %s"
+
+#~ msgid "Obsolete option: %s"
+#~ msgstr "Option obsolète: %s"
+
+#~ msgid "Out of memory for RGB pixel buffer %s"
+#~ msgstr "Plus de mémoire pour le tampon de pixel RVB %s"
+
+#~ msgid "Out of memory for pixel map %s"
+#~ msgstr "Plus de mémoire pour le pixmap %s"
+
+#~ msgid "Out of memory: Unable to allocated %d bytes."
+#~ msgstr "Plus de mémoire : impossible d'allouer %d octets."
+
+#~ msgid "Pair of hexadecimal digits expected"
+#~ msgstr "Paire de chiffres hexadécimaux attendue"
+
+#~ msgid "Resource allocation for rotated string \"%s\" (%dx%d px) failed"
+#~ msgstr "Allocation de ressources pour la chaîne tournée \"%s\" (%dx%d px)"
+
+#~ msgid "Separator expected"
+#~ msgstr "Séparateur attendu"
+
+#~ msgid "Session Manager: IceAddConnectionWatch failed."
+#~ msgstr "Gestionnaire de session : IceAddConnectionWatch a échoué."
+
+#~ msgid "Session Manager: Init error: %s"
+#~ msgstr "Gestionnaire de session : erreur d'initialisation : %s"
+
+#~ msgid "TOO MANY ICE CONNECTIONS -- not supported"
+#~ msgstr "TROP DE CONNEXION ICE -- non supporté"
+
+#~ msgid "Unexpected identifier"
+#~ msgstr "Identifiant inattendu"
+
+#~ msgid ""
+#~ "Usage: icetail [OPTIONS] file1 [file2]...\n"
+#~ "Paints a files tail on the desktop background.\n"
+#~ msgstr ""
+#~ "Usage: icetail [OPTIONS] fichier1 [fichier2]...\n"
+#~ "Affiche la fin d'un fichier en fond d'écran\n"
+
+#~ msgid ""
+#~ "Usage: icewmbg [OPTION]... pixmap1 [pixmap2]...\n"
+#~ "Changes desktop background on workspace switches.\n"
+#~ "The first pixmap is used as a default one.\n"
+#~ "\n"
+#~ "-s, --semitransparency    Enable support for semi-transparent terminals\n"
+#~ msgstr ""
+#~ "Syntaxe: icewmbg [OPTION]... pixmap1 [pixmap2] ...\n"
+#~ "Change le fond d'écran lors d'un changement de bureau.\n"
+#~ "Le premier pixmap est celui utilisé par défaut ...\n"
+#~ "\n"
+#~ "-s,  --semitransparency\tActive le support des terminaux semi-"
+#~ "transparents\n"
+
+#~ msgid ""
+#~ "Warning! Unsaved changes will be lost!\n"
+#~ "Proceed?"
+#~ msgstr ""
+#~ "Attention! Les changements non sauvegardés seront perdus !\n"
+#~ "Continuer ?"
+
+#~ msgid ""
+#~ "Window %p has no XA_ICEWM_PID property. Export the LD_PRELOAD variable to "
+#~ "preload the preice library."
+#~ msgstr ""
+#~ "La fenêtre %p n'a pas de propriété XA_ICEWM_PID. Exportez lavariable "
+#~ "LD_PRELOAD pour précharger la librairie preice."
+
+#~ msgid "X error %s(0x%lX): %s"
+#~ msgstr "Erreur X %s(0x%lX): %s"
+
+#~ msgid "XQueryTree failed for window 0x%x"
+#~ msgstr "Échec de XQueryTree pour la fenêtre 0x%x"
+
+#~ msgid "_Exclusive"
+#~ msgstr "_Exclusif"
+
+#~ msgid "_Ignore"
+#~ msgstr "_Ignorer"
+
+#~ msgid "_Minimized"
+#~ msgstr "Mi_nimisé"
+
+#~ msgid "_No icon"
+#~ msgstr "_Pas d'icône"
+
+#~ msgid "action name expected"
+#~ msgstr "Nom de l'action attendu"
+
+#~ msgid "cpu: %d %d %d %d %d %d %d"
+#~ msgstr "CPU: %d %d %d %d %d %d %d"
+
+#~ msgid "icon name expected"
+#~ msgstr "Nom d'icône attendu"
+
+#~ msgid "kstat finds too many cpus: should be %d"
+#~ msgstr "kstat a trouvé trop de processeurs : il devrait y en avoir %d"
+
+#~ msgid "menu caption expected"
+#~ msgstr "Nom de menu attendu"
+
+#~ msgid "opening curly expected"
+#~ msgstr "Crochet ouvrant attendu"
+
+#~ msgid "program label expected"
+#~ msgstr "Étiquette de programme attendue"
+
+#~ msgid "unknown action"
+#~ msgstr "Action inconnue"
+
+#~ msgid "window management class expected"
+#~ msgstr "Classe de fenêtre attendue"

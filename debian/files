@@ -1,0 +1,8 @@
+icewm-common-dbgsym_1.3.12+mod+20170325.1_amd64.deb debug extra
+icewm-common_1.3.12+mod+20170325.1_amd64.deb x11 optional
+icewm-dbgsym_1.3.12+mod+20170325.1_amd64.deb debug extra
+icewm-experimental_1.3.12+mod+20170325.1_amd64.deb x11 optional
+icewm-lite-dbgsym_1.3.12+mod+20170325.1_amd64.deb debug extra
+icewm-lite_1.3.12+mod+20170325.1_amd64.deb x11 optional
+icewm_1.3.12+mod+20170325.1_amd64.buildinfo x11 optional
+icewm_1.3.12+mod+20170325.1_amd64.deb x11 optional

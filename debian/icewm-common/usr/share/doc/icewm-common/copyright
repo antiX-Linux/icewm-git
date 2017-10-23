@@ -1,0 +1,45 @@
+This package was debianized by Eduard Bloch <blade@debian.org> on Jan 26 2015.
+
+It contains a modified version of icewm source downloaded from
+https://github.com/Code7R/icewm that contains code from
+https://github.com/bbidulock/icewm which is based on the original icewm as
+available on http://www.icewm.org/ or in the related Sourceforge project space.
+
+Upstream Authors:
+        Marko Macek <marko.macek@gmx.net>
+        Mathias Hasselmann <mathias.hasselmann@gmx.de>
+
+icesound:
+        Christian W. Zuckschwerdt <zany@triq.net>
+        Capt Tara Malina <learfox2@hotmail.com>
+
+network monitor:
+        Mark Lawrence <nomad@null.net>
+        Denis Boehme <denis.boehme@gmx.net>
+        Ronald Klop <ronald@cs.vu.nl>
+
+icon tray:
+        Jan Krupa <j.krupa@netweb.cz>
+
+Various bugfixes and improvements:
+      Alexander Galanin <al@galanin.nnov.ru>
+      Alvaro G. M <alvaro.gamez@hazent.com>
+      Andrey Danin <danindrey@mail.ru>
+      Anthony G. Basile <blueness@gentoo.org>
+      Axel Dirla <axel.dirla@arcor.de>
+      Brian Bidulock <bidulock@openss7.org>
+      DeltaResero <deltaresero@zoho.com>
+      Eduard Bloch <blade@debian.org>
+      Jeff Woods <klaatu@fnordco.com>
+      Mario <kdesi@kdesi.sk>
+      Matthew Ogilvie <mmogilvi_ice@miniinfo.net>
+      Pacho Ramos <pacho@gentoo.org>
+      Perttu Ahola <celeron55@gmail.com>
+      Stefan Giermair <zstegi@gmail.com>
+      Tomáš Chvátal <tomas.chvatal@gmail.com>
+      Thorsten “mirabilos” Glaser <t.glaser@tarent.de>
+      Tomá¨ Chvátal <tomas.chvatal@gmail.com>
+      ... and others
+
+This software is released under the GNU Lesser General Public Licence. See
+/usr/share/common-licenses/LGPL-2 on Debian systems for details.

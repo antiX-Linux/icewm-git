@@ -1,0 +1,21 @@
+Package: icewm-common
+Source: icewm
+Version: 1.3.12+mod+20170325.1
+Architecture: amd64
+Maintainer: Eduard Bloch <blade@debian.org>
+Installed-Size: 1720
+Depends: libc6 (>= 2.14), libgcc1 (>= 1:4.2), libglib2.0-0 (>= 2.35.8)
+Recommends: menu, xscreensaver
+Conflicts: menu (<< 2.1.9-1)
+Replaces: icewm (<< 1.2.14), icewm-gnome-support (<< 1.3.8-3)
+Section: x11
+Priority: optional
+Description: wonderful Win95-OS/2-Motif-like window manager
+ IceWm is a Window Manager for X Window System. Can emulate the look of
+ Windows'95, OS/2 Warp 3,4, Motif. Tries to take the best features of the above
+ systems.
+ Features multiple workspaces, opaque move/resize, task bar, window list,
+ mailbox status, digital clock. Fast and small.
+ .
+ This package provides the common files for icewm, icewm-experimental and
+ icewm-lite binary packages.

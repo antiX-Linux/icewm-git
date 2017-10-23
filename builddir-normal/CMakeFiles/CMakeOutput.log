@@ -1,0 +1,1605 @@
+The system is: Linux - 4.10.5-antix.1-amd64-smp - x86_64
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: -g;-O2;-fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=.;-fstack-protector-strong;-Wformat;-Werror=format-security;-Wdate-time;-D_FORTIFY_SOURCE=2;-DXTERMCMD=x-terminal-emulator;-Wall;-Wextra;-DUSE_SIGNALFD
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/3.7.2/CompilerIdCXX/a.out"
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: -g;-O2;-fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=.;-fstack-protector-strong;-Wformat;-Werror=format-security
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/3.7.2/CompilerIdC/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5916b/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5916b.dir/build.make CMakeFiles/cmTC_5916b.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5916b.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD    -o CMakeFiles/cmTC_5916b.dir/testCXXCompiler.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_5916b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5916b.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_5916b.dir/testCXXCompiler.cxx.o  -o cmTC_5916b -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_414a3/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_414a3.dir/build.make CMakeFiles/cmTC_414a3.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_414a3.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD    -o CMakeFiles/cmTC_414a3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_414a3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_414a3.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_414a3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_414a3 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-11' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 6.3.0 20170321 (Debian 6.3.0-11) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-D' 'XTERMCMD=x-terminal-emulator' '-Wall' '-Wextra' '-D' 'USE_SIGNALFD' '-v' '-o' 'cmTC_414a3' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGiVIUY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_414a3 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. -z relro -z now CMakeFiles/cmTC_414a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-D' 'XTERMCMD=x-terminal-emulator' '-Wall' '-Wextra' '-D' 'USE_SIGNALFD' '-v' '-o' 'cmTC_414a3' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_414a3/fast"]
+  ignore line: [make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_414a3.dir/build.make CMakeFiles/cmTC_414a3.dir/build]
+  ignore line: [make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_414a3.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD    -o CMakeFiles/cmTC_414a3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.7/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_414a3]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_414a3.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_414a3.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_414a3 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-11' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170321 (Debian 6.3.0-11) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-Wdate-time' '-D' '_FORTIFY_SOURCE=2' '-D' 'XTERMCMD=x-terminal-emulator' '-Wall' '-Wextra' '-D' 'USE_SIGNALFD' '-v' '-o' 'cmTC_414a3' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccGiVIUY.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_414a3 /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. -z relro -z now CMakeFiles/cmTC_414a3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccGiVIUY.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_414a3] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_414a3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6] ==> [/usr/lib/gcc/x86_64-linux-gnu/6]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e7399/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e7399.dir/build.make CMakeFiles/cmTC_e7399.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e7399.dir/feature_tests.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD    -std=c++14 -o CMakeFiles/cmTC_e7399.dir/feature_tests.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e7399
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e7399.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_e7399.dir/feature_tests.cxx.o  -o cmTC_e7399 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d466a/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d466a.dir/build.make CMakeFiles/cmTC_d466a.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d466a.dir/feature_tests.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD    -std=c++11 -o CMakeFiles/cmTC_d466a.dir/feature_tests.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_d466a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d466a.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_d466a.dir/feature_tests.cxx.o  -o cmTC_d466a -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12588/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_12588.dir/build.make CMakeFiles/cmTC_12588.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_12588.dir/feature_tests.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD    -std=c++98 -o CMakeFiles/cmTC_12588.dir/feature_tests.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_12588
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12588.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_12588.dir/feature_tests.cxx.o  -o cmTC_12588 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_458bc/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_458bc.dir/build.make CMakeFiles/cmTC_458bc.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_458bc.dir/testCCompiler.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security    -o CMakeFiles/cmTC_458bc.dir/testCCompiler.c.o   -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_458bc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_458bc.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_458bc.dir/testCCompiler.c.o  -o cmTC_458bc -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9bc6d/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9bc6d.dir/build.make CMakeFiles/cmTC_9bc6d.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9bc6d.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security    -o CMakeFiles/cmTC_9bc6d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_9bc6d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bc6d.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_9bc6d.dir/CMakeCCompilerABI.c.o  -o cmTC_9bc6d -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-11' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 6.3.0 20170321 (Debian 6.3.0-11) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-v' '-o' 'cmTC_9bc6d' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrHVULl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9bc6d /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. -z relro -z now CMakeFiles/cmTC_9bc6d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-v' '-o' 'cmTC_9bc6d' '-rdynamic' '-mtune=generic' '-march=x86-64'
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9bc6d/fast"]
+  ignore line: [make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9bc6d.dir/build.make CMakeFiles/cmTC_9bc6d.dir/build]
+  ignore line: [make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_9bc6d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security    -o CMakeFiles/cmTC_9bc6d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.7/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_9bc6d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9bc6d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security   -Wl,-z,relro -Wl,-z,now -v CMakeFiles/cmTC_9bc6d.dir/CMakeCCompilerABI.c.o  -o cmTC_9bc6d -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 6.3.0-11' --with-bugurl=file:///usr/share/doc/gcc-6/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-6 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --enable-default-pie --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-6-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-6-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-6-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --with-target-system-zlib --enable-objc-gc=auto --enable-multiarch --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.3.0 20170321 (Debian 6.3.0-11) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/6/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/6/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-g' '-O2' '-fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=.' '-fstack-protector-strong' '-Wformat=1' '-Werror=format-security' '-v' '-o' 'cmTC_9bc6d' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/6/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper -plugin-opt=-fresolution=/tmp/ccrHVULl.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_9bc6d /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/6 -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/6/../../.. -z relro -z now CMakeFiles/cmTC_9bc6d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/6/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccrHVULl.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_9bc6d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtbeginS.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..]
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_9bc6d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/crtendS.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6] ==> [/usr/lib/gcc/x86_64-linux-gnu/6]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/6/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/6;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56c40/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_56c40.dir/build.make CMakeFiles/cmTC_56c40.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56c40.dir/feature_tests.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security    -std=c11 -o CMakeFiles/cmTC_56c40.dir/feature_tests.c.o   -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/feature_tests.c
+Linking C executable cmTC_56c40
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56c40.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_56c40.dir/feature_tests.c.o  -o cmTC_56c40 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_80bc8/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_80bc8.dir/build.make CMakeFiles/cmTC_80bc8.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80bc8.dir/feature_tests.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security    -std=c99 -o CMakeFiles/cmTC_80bc8.dir/feature_tests.c.o   -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/feature_tests.c
+Linking C executable cmTC_80bc8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80bc8.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_80bc8.dir/feature_tests.c.o  -o cmTC_80bc8 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_84540/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_84540.dir/build.make CMakeFiles/cmTC_84540.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_84540.dir/feature_tests.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security    -std=c90 -o CMakeFiles/cmTC_84540.dir/feature_tests.c.o   -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/feature_tests.c
+Linking C executable cmTC_84540
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84540.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security   -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_84540.dir/feature_tests.c.o  -o cmTC_84540 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the function dup2 exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eae4a/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_eae4a.dir/build.make CMakeFiles/cmTC_eae4a.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eae4a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=dup2 -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_eae4a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_eae4a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eae4a.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=dup2 -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_eae4a.dir/CheckFunctionExists.c.o  -o cmTC_eae4a -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getcwd exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_901ca/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_901ca.dir/build.make CMakeFiles/cmTC_901ca.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_901ca.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=getcwd -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_901ca.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_901ca
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_901ca.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=getcwd -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_901ca.dir/CheckFunctionExists.c.o  -o cmTC_901ca -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c04c/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6c04c.dir/build.make CMakeFiles/cmTC_6c04c.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c04c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=gethostbyname -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_6c04c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_6c04c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c04c.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=gethostbyname -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_6c04c.dir/CheckFunctionExists.c.o  -o cmTC_6c04c -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostname exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a86a8/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a86a8.dir/build.make CMakeFiles/cmTC_a86a8.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a86a8.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=gethostname -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_a86a8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a86a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a86a8.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=gethostname -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_a86a8.dir/CheckFunctionExists.c.o  -o cmTC_a86a8 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gettimeofday exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7f35/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c7f35.dir/build.make CMakeFiles/cmTC_c7f35.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7f35.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=gettimeofday -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_c7f35.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c7f35
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7f35.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=gettimeofday -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_c7f35.dir/CheckFunctionExists.c.o  -o cmTC_c7f35 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mblen exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2ccde/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2ccde.dir/build.make CMakeFiles/cmTC_2ccde.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2ccde.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=mblen -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_2ccde.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2ccde
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2ccde.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=mblen -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_2ccde.dir/CheckFunctionExists.c.o  -o cmTC_2ccde -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memchr exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e0b3c/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_e0b3c.dir/build.make CMakeFiles/cmTC_e0b3c.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e0b3c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=memchr -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_e0b3c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memchr’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_e0b3c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e0b3c.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=memchr -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_e0b3c.dir/CheckFunctionExists.c.o  -o cmTC_e0b3c -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be6da/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_be6da.dir/build.make CMakeFiles/cmTC_be6da.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be6da.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=memmove -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_be6da.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memmove’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_be6da
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be6da.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=memmove -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_be6da.dir/CheckFunctionExists.c.o  -o cmTC_be6da -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_272a5/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_272a5.dir/build.make CMakeFiles/cmTC_272a5.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_272a5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=memset -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_272a5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘memset’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_272a5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_272a5.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=memset -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_272a5.dir/CheckFunctionExists.c.o  -o cmTC_272a5 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkdir exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7d75a/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_7d75a.dir/build.make CMakeFiles/cmTC_7d75a.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d75a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=mkdir -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_7d75a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7d75a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d75a.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=mkdir -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_7d75a.dir/CheckFunctionExists.c.o  -o cmTC_7d75a -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function nl_langinfo exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_70829/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_70829.dir/build.make CMakeFiles/cmTC_70829.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70829.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=nl_langinfo -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_70829.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_70829
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70829.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=nl_langinfo -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_70829.dir/CheckFunctionExists.c.o  -o cmTC_70829 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_04029/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_04029.dir/build.make CMakeFiles/cmTC_04029.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04029.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=putenv -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_04029.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_04029
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04029.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=putenv -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_04029.dir/CheckFunctionExists.c.o  -o cmTC_04029 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function select exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_62da2/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_62da2.dir/build.make CMakeFiles/cmTC_62da2.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62da2.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=select -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_62da2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_62da2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62da2.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=select -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_62da2.dir/CheckFunctionExists.c.o  -o cmTC_62da2 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function setlocale exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fc7f8/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_fc7f8.dir/build.make CMakeFiles/cmTC_fc7f8.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fc7f8.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=setlocale -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_fc7f8.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_fc7f8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc7f8.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=setlocale -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_fc7f8.dir/CheckFunctionExists.c.o  -o cmTC_fc7f8 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function socket exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bfd37/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_bfd37.dir/build.make CMakeFiles/cmTC_bfd37.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bfd37.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=socket -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_bfd37.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_bfd37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bfd37.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=socket -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_bfd37.dir/CheckFunctionExists.c.o  -o cmTC_bfd37 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_12066/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_12066.dir/build.make CMakeFiles/cmTC_12066.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_12066.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strcasecmp -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_12066.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcasecmp’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_12066
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12066.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strcasecmp -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_12066.dir/CheckFunctionExists.c.o  -o cmTC_12066 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_571c2/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_571c2.dir/build.make CMakeFiles/cmTC_571c2.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_571c2.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strchr -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_571c2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strchr’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_571c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_571c2.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strchr -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_571c2.dir/CheckFunctionExists.c.o  -o cmTC_571c2 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strcspn exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_21fb4/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_21fb4.dir/build.make CMakeFiles/cmTC_21fb4.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21fb4.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strcspn -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_21fb4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strcspn’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_21fb4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21fb4.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strcspn -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_21fb4.dir/CheckFunctionExists.c.o  -o cmTC_21fb4 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strdup exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b8cc/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8b8cc.dir/build.make CMakeFiles/cmTC_8b8cc.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b8cc.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strdup -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_8b8cc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strdup’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_8b8cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b8cc.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strdup -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_8b8cc.dir/CheckFunctionExists.c.o  -o cmTC_8b8cc -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strerror exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b920c/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b920c.dir/build.make CMakeFiles/cmTC_b920c.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b920c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strerror -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_b920c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b920c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b920c.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strerror -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_b920c.dir/CheckFunctionExists.c.o  -o cmTC_b920c -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b4bd/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9b4bd.dir/build.make CMakeFiles/cmTC_9b4bd.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9b4bd.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strncasecmp -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_9b4bd.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strncasecmp’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_9b4bd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b4bd.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strncasecmp -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_9b4bd.dir/CheckFunctionExists.c.o  -o cmTC_9b4bd -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6746d/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_6746d.dir/build.make CMakeFiles/cmTC_6746d.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6746d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strrchr -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_6746d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strrchr’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_6746d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6746d.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strrchr -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_6746d.dir/CheckFunctionExists.c.o  -o cmTC_6746d -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strspn exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d2cb6/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_d2cb6.dir/build.make CMakeFiles/cmTC_d2cb6.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d2cb6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strspn -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_d2cb6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strspn’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_d2cb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2cb6.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strspn -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_d2cb6.dir/CheckFunctionExists.c.o  -o cmTC_d2cb6 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0ebc9/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0ebc9.dir/build.make CMakeFiles/cmTC_0ebc9.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0ebc9.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strstr -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_0ebc9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘strstr’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_0ebc9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0ebc9.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strstr -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_0ebc9.dir/CheckFunctionExists.c.o  -o cmTC_0ebc9 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e5f5/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0e5f5.dir/build.make CMakeFiles/cmTC_0e5f5.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e5f5.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strtol -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_0e5f5.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e5f5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e5f5.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=strtol -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_0e5f5.dir/CheckFunctionExists.c.o  -o cmTC_0e5f5 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sysinfo exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0e602/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0e602.dir/build.make CMakeFiles/cmTC_0e602.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0e602.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=sysinfo -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_0e602.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0e602
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e602.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=sysinfo -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_0e602.dir/CheckFunctionExists.c.o  -o cmTC_0e602 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function uname exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a786/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0a786.dir/build.make CMakeFiles/cmTC_0a786.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0a786.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=uname -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_0a786.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0a786
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a786.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=uname -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_0a786.dir/CheckFunctionExists.c.o  -o cmTC_0a786 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function abort exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8f00a/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8f00a.dir/build.make CMakeFiles/cmTC_8f00a.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8f00a.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=abort -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_8f00a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+<command-line>:0:23: warning: conflicting types for built-in function ‘abort’
+/usr/share/cmake-3.7/Modules/CheckFunctionExists.c:7:3: note: in expansion of macro ‘CHECK_FUNCTION_EXISTS’
+   CHECK_FUNCTION_EXISTS();
+   ^~~~~~~~~~~~~~~~~~~~~
+Linking C executable cmTC_8f00a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8f00a.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=abort -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_8f00a.dir/CheckFunctionExists.c.o  -o cmTC_8f00a -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function basename exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8216e/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_8216e.dir/build.make CMakeFiles/cmTC_8216e.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8216e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=basename -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_8216e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8216e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8216e.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=basename -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_8216e.dir/CheckFunctionExists.c.o  -o cmTC_8216e -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function getloadavg exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ef8db/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ef8db.dir/build.make CMakeFiles/cmTC_ef8db.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ef8db.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=getloadavg -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_ef8db.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ef8db
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef8db.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=getloadavg -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_ef8db.dir/CheckFunctionExists.c.o  -o cmTC_ef8db -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function asprintf exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0685c/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0685c.dir/build.make CMakeFiles/cmTC_0685c.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0685c.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=asprintf -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_0685c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0685c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0685c.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=asprintf -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_0685c.dir/CheckFunctionExists.c.o  -o cmTC_0685c -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function wordexp exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0729e/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0729e.dir/build.make CMakeFiles/cmTC_0729e.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0729e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=wordexp -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_0729e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_0729e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0729e.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=wordexp -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_0729e.dir/CheckFunctionExists.c.o  -o cmTC_0729e -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XInternAtoms exists in the X11 passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_82ad0/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_82ad0.dir/build.make CMakeFiles/cmTC_82ad0.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82ad0.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=XInternAtoms -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_82ad0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.7/Modules/CheckFunctionExists.c
+Linking C executable cmTC_82ad0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82ad0.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -DCHECK_FUNCTION_EXISTS=XInternAtoms -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_82ad0.dir/CheckFunctionExists.c.o  -o cmTC_82ad0 -rdynamic -lX11 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0784a/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0784a.dir/build.make CMakeFiles/cmTC_0784a.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0784a.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_0784a.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0784a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0784a.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_0784a.dir/CheckIncludeFile.cxx.o  -o cmTC_0784a -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file langinfo.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73e17/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_73e17.dir/build.make CMakeFiles/cmTC_73e17.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_73e17.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_73e17.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_73e17
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73e17.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_73e17.dir/CheckIncludeFile.cxx.o  -o cmTC_73e17 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file libintl.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e18a/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5e18a.dir/build.make CMakeFiles/cmTC_5e18a.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e18a.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_5e18a.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_5e18a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e18a.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_5e18a.dir/CheckIncludeFile.cxx.o  -o cmTC_5e18a -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_11830/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_11830.dir/build.make CMakeFiles/cmTC_11830.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11830.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_11830.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_11830
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11830.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_11830.dir/CheckIncludeFile.cxx.o  -o cmTC_11830 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a08cc/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_a08cc.dir/build.make CMakeFiles/cmTC_a08cc.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a08cc.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_a08cc.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_a08cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a08cc.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_a08cc.dir/CheckIncludeFile.cxx.o  -o cmTC_a08cc -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netdb.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b93b0/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_b93b0.dir/build.make CMakeFiles/cmTC_b93b0.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b93b0.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_b93b0.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_b93b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b93b0.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_b93b0.dir/CheckIncludeFile.cxx.o  -o cmTC_b93b0 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file netinet/in.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9b62d/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9b62d.dir/build.make CMakeFiles/cmTC_9b62d.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9b62d.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_9b62d.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_9b62d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9b62d.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_9b62d.dir/CheckIncludeFile.cxx.o  -o cmTC_9b62d -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_434cd/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_434cd.dir/build.make CMakeFiles/cmTC_434cd.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_434cd.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_434cd.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_434cd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_434cd.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_434cd.dir/CheckIncludeFile.cxx.o  -o cmTC_434cd -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2e955/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2e955.dir/build.make CMakeFiles/cmTC_2e955.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2e955.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_2e955.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_2e955
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e955.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_2e955.dir/CheckIncludeFile.cxx.o  -o cmTC_2e955 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30187/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_30187.dir/build.make CMakeFiles/cmTC_30187.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_30187.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_30187.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_30187
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30187.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_30187.dir/CheckIncludeFile.cxx.o  -o cmTC_30187 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/file.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5b721/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5b721.dir/build.make CMakeFiles/cmTC_5b721.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5b721.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_5b721.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_5b721
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b721.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_5b721.dir/CheckIncludeFile.cxx.o  -o cmTC_5b721 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/ioctl.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_85ae7/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_85ae7.dir/build.make CMakeFiles/cmTC_85ae7.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_85ae7.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_85ae7.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_85ae7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_85ae7.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_85ae7.dir/CheckIncludeFile.cxx.o  -o cmTC_85ae7 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3617/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c3617.dir/build.make CMakeFiles/cmTC_c3617.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c3617.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_c3617.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c3617
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3617.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_c3617.dir/CheckIncludeFile.cxx.o  -o cmTC_c3617 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/socket.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c3cbd/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c3cbd.dir/build.make CMakeFiles/cmTC_c3cbd.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c3cbd.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_c3cbd.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_c3cbd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3cbd.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_c3cbd.dir/CheckIncludeFile.cxx.o  -o cmTC_c3cbd -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_73f3a/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_73f3a.dir/build.make CMakeFiles/cmTC_73f3a.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_73f3a.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_73f3a.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_73f3a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73f3a.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_73f3a.dir/CheckIncludeFile.cxx.o  -o cmTC_73f3a -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ca8c2/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_ca8c2.dir/build.make CMakeFiles/cmTC_ca8c2.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ca8c2.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_ca8c2.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_ca8c2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca8c2.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_ca8c2.dir/CheckIncludeFile.cxx.o  -o cmTC_ca8c2 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_18317/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_18317.dir/build.make CMakeFiles/cmTC_18317.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_18317.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_18317.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_18317
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_18317.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_18317.dir/CheckIncludeFile.cxx.o  -o cmTC_18317 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sched.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9f51f/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9f51f.dir/build.make CMakeFiles/cmTC_9f51f.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9f51f.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_9f51f.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_9f51f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f51f.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_9f51f.dir/CheckIncludeFile.cxx.o  -o cmTC_9f51f -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/sysctl.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b0dd/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0b0dd.dir/build.make CMakeFiles/cmTC_0b0dd.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0b0dd.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_0b0dd.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0b0dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b0dd.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_0b0dd.dir/CheckIncludeFile.cxx.o  -o cmTC_0b0dd -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file libgen.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0a634/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_0a634.dir/build.make CMakeFiles/cmTC_0a634.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0a634.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_0a634.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_0a634
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0a634.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_0a634.dir/CheckIncludeFile.cxx.o  -o cmTC_0a634 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_39d3b/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_39d3b.dir/build.make CMakeFiles/cmTC_39d3b.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_39d3b.dir/CheckIncludeFile.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_39d3b.dir/CheckIncludeFile.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+Linking CXX executable cmTC_39d3b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_39d3b.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_39d3b.dir/CheckIncludeFile.cxx.o  -o cmTC_39d3b -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5c6eb/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5c6eb.dir/build.make CMakeFiles/cmTC_5c6eb.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5c6eb.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_5c6eb.dir/CheckIncludeFile.c.o   -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_5c6eb
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5c6eb.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_5c6eb.dir/CheckIncludeFile.c.o  -o cmTC_5c6eb -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28b8e/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_28b8e.dir/build.make CMakeFiles/cmTC_28b8e.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28b8e.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_28b8e.dir/CheckIncludeFile.c.o   -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_28b8e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28b8e.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_28b8e.dir/CheckIncludeFile.c.o  -o cmTC_28b8e -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining size of char passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c7bfe/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_c7bfe.dir/build.make CMakeFiles/cmTC_c7bfe.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c7bfe.dir/SIZEOF_CHAR.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_c7bfe.dir/SIZEOF_CHAR.c.o   -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CheckTypeSize/SIZEOF_CHAR.c
+Linking C executable cmTC_c7bfe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7bfe.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_c7bfe.dir/SIZEOF_CHAR.c.o  -o cmTC_c7bfe -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining size of long passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2b644/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_2b644.dir/build.make CMakeFiles/cmTC_2b644.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2b644.dir/SIZEOF_LONG.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_2b644.dir/SIZEOF_LONG.c.o   -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c
+Linking C executable cmTC_2b644
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2b644.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_2b644.dir/SIZEOF_LONG.c.o  -o cmTC_2b644 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining size of int passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5af77/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5af77.dir/build.make CMakeFiles/cmTC_5af77.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5af77.dir/SIZEOF_INT.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_5af77.dir/SIZEOF_INT.c.o   -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CheckTypeSize/SIZEOF_INT.c
+Linking C executable cmTC_5af77
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5af77.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_5af77.dir/SIZEOF_INT.c.o  -o cmTC_5af77 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Determining size of short passed with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ba4e/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_9ba4e.dir/build.make CMakeFiles/cmTC_9ba4e.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ba4e.dir/SIZEOF_SHORT.c.o
+/usr/bin/cc    -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_9ba4e.dir/SIZEOF_SHORT.c.o   -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CheckTypeSize/SIZEOF_SHORT.c
+Linking C executable cmTC_9ba4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ba4e.dir/link.txt --verbose=1
+/usr/bin/cc  -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_9ba4e.dir/SIZEOF_SHORT.c.o  -o cmTC_9ba4e -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test USE_WLASNEEDED succeeded with the following output:
+Change Dir: /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ae23/fast"
+make[3]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+/usr/bin/make -f CMakeFiles/cmTC_5ae23.dir/build.make CMakeFiles/cmTC_5ae23.dir/build
+make[4]: Entering directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5ae23.dir/src.cxx.o
+/usr/bin/c++     -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -DUSE_WLASNEEDED -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.   -o CMakeFiles/cmTC_5ae23.dir/src.cxx.o -c /home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_5ae23
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ae23.dir/link.txt --verbose=1
+/usr/bin/c++   -g -O2 -fdebug-prefix-map=/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1=. -fstack-protector-strong -Wformat -Werror=format-security -Wdate-time -D_FORTIFY_SOURCE=2 -DXTERMCMD=x-terminal-emulator -Wall -Wextra -DUSE_SIGNALFD -DUSE_WLASNEEDED -pthread -Wall -Wextra -Wno-unused-parameter -D_FILE_OFFSET_BITS=64 -D_GNU_SOURCE -I.  -Wl,-z,relro -Wl,-z,now  CMakeFiles/cmTC_5ae23.dir/src.cxx.o  -o cmTC_5ae23 -rdynamic 
+make[4]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+make[3]: Leaving directory '/home/anticap/Working-dev/icewm-1.3.12+mod+20170325.1/builddir-normal/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() {return 0;}

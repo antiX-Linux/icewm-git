@@ -1,0 +1,3 @@
+shlibs:Depends=libc6 (>= 2.15), libgcc1 (>= 1:4.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libice6 (>= 1:1.0.0), libsm6, libx11-6, libxext6, libxinerama1
+misc:Depends=
+misc:Pre-Depends=

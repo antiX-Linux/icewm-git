@@ -1,0 +1,12 @@
+Package: icewm-lite-dbgsym
+Source: icewm
+Version: 1.3.12+mod+20170325.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Eduard Bloch <blade@debian.org>
+Installed-Size: 2074
+Depends: icewm-lite (= 1.3.12+mod+20170325.1)
+Section: debug
+Priority: extra
+Description: Debug symbols for icewm-lite
+Build-Ids: 2ce20a5844053d9967d9fb2bcbdf702eafd38cf9 531bc379a1ff7aa2d1bb83d5f25e0c109eecf0ae 6feb2151a7f2797688357bac0e2aeaf07819b969 965435abb3083e95a68aeeb7ebf660ceec691342 c44f2cb69181f636501be868ffebde2b3d16d97a d982162a4ea6ec202570f7e42c82e672a0ce3f48

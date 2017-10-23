@@ -1,0 +1,9 @@
+1904020939b7100e4d640ba402531a93  usr/bin/icesh-lite
+b42334d2bbae6e78753527e94b0234c8  usr/bin/icewm-lite
+a5eada8aa977707797005949df5a74d0  usr/bin/icewm-session-lite
+9d3f5ce35290ddac63f11a8518f11ac3  usr/bin/icewmbg-lite
+65c7a39c6a0882d4b53b30ba9d300250  usr/bin/icewmhint-lite
+3d31e713f62ca07d2efd9ae2fedcba6d  usr/bin/icewmtray-lite
+1be2a5647f681ec7081065188c506e1e  usr/share/lintian/overrides/icewm-lite
+72f4ba213fa0d84beb7f13d5d3b07fed  usr/share/menu/icewm-lite
+6d2e275727d87e7c9b5fd062b3f22011  usr/share/xsessions/IceWM-Lite.desktop

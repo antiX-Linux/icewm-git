@@ -1,0 +1,16 @@
+Package: icewm
+Version: 1.3.12+mod+20170325.1
+Architecture: amd64
+Maintainer: Eduard Bloch <blade@debian.org>
+Installed-Size: 2490
+Depends: icewm-common (= 1.3.12+mod+20170325.1), libasound2 (>= 1.0.16), libc6 (>= 2.15), libesd0 (>= 0.2.35), libfontconfig1 (>= 2.11), libgcc1 (>= 1:4.2), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.12.0), libice6 (>= 1:1.0.0), libsm6, libsndfile1 (>= 1.0.20), libx11-6, libxext6, libxft2 (>> 2.1.1), libxinerama1, libxrandr2 (>= 2:1.2.0), fonts-dejavu-core | ttf-dejavu-core | custom-icewm-font
+Conflicts: icewm-common (<< 1.3.8-3)
+Provides: x-window-manager
+Section: x11
+Priority: optional
+Description: wonderful Win95-OS/2-Motif-like window manager
+ IceWm is a Window Manager for X Window System. It is fast and
+ memory-efficient, and it provides many different looks including Windows'95,
+ OS/2 Warp 3,4, Motif. It tries to take the best features of the above
+ systems. Additional features include  multiple workspaces, opaque move/resize,
+ task bar, window list, mailbox status, digital clock.

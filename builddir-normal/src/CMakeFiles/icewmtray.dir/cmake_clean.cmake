@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/icewmtray.dir/icetray.cc.o"
+  "CMakeFiles/icewmtray.dir/ywindow.cc.o"
+  "CMakeFiles/icewmtray.dir/yxapp.cc.o"
+  "CMakeFiles/icewmtray.dir/yapp.cc.o"
+  "CMakeFiles/icewmtray.dir/ref.cc.o"
+  "CMakeFiles/icewmtray.dir/mstring.cc.o"
+  "CMakeFiles/icewmtray.dir/yprefs.cc.o"
+  "CMakeFiles/icewmtray.dir/wmconfig.cc.o"
+  "CMakeFiles/icewmtray.dir/yxtray.cc.o"
+  "CMakeFiles/icewmtray.dir/upath.cc.o"
+  "CMakeFiles/icewmtray.dir/ytimer.cc.o"
+  "CMakeFiles/icewmtray.dir/ypaint.cc.o"
+  "CMakeFiles/icewmtray.dir/ypopup.cc.o"
+  "CMakeFiles/icewmtray.dir/misc.cc.o"
+  "CMakeFiles/icewmtray.dir/ycursor.cc.o"
+  "CMakeFiles/icewmtray.dir/ysocket.cc.o"
+  "CMakeFiles/icewmtray.dir/ypaths.cc.o"
+  "CMakeFiles/icewmtray.dir/ypixbuf.cc.o"
+  "CMakeFiles/icewmtray.dir/ylocale.cc.o"
+  "CMakeFiles/icewmtray.dir/yarray.cc.o"
+  "CMakeFiles/icewmtray.dir/ypipereader.cc.o"
+  "CMakeFiles/icewmtray.dir/yxembed.cc.o"
+  "CMakeFiles/icewmtray.dir/yconfig.cc.o"
+  "CMakeFiles/icewmtray.dir/yfont.cc.o"
+  "CMakeFiles/icewmtray.dir/ypixmap.cc.o"
+  "CMakeFiles/icewmtray.dir/yimage.cc.o"
+  "CMakeFiles/icewmtray.dir/yimage_gdk.cc.o"
+  "CMakeFiles/icewmtray.dir/yimage_imlib.cc.o"
+  "CMakeFiles/icewmtray.dir/yimage_xpm.cc.o"
+  "CMakeFiles/icewmtray.dir/ytooltip.cc.o"
+  "CMakeFiles/icewmtray.dir/yfontxft.cc.o"
+  "../icewmtray.pdb"
+  "../icewmtray"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/icewmtray.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
